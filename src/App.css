@@ -1,6 +1,7 @@
+@import url("./assets/fonts.css");
+
 .canva-header {
   position: relative;
-  z-index: -100;
   top: 0;
   left: 0;
   width: 100%;
@@ -30,3 +31,247 @@
   margin: 0;
 }
 
+.navbar-wrapper {
+  align-self: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 80%;
+  padding: 2.5rem 7.5rem;
+  z-index: 10;
+}
+
+.navbar-container {
+  backdrop-filter: blur(12px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 0 2.5rem;
+  margin: auto;
+}
+
+.navigations {
+  display: flex;
+  gap: 2rem;
+}
+
+.navigations a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+
+.register-button button {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hamburger menu */
+.hamburger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger-menu span {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.dropdown-menu {
+  display: none;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+  text-align: center;
+  transition: max-height 0.3s ease-out;
+  overflow: hidden;
+  max-height: 0;
+}
+
+.dropdown-menu a {
+  display: block;
+  margin: 1rem 0;
+  color: #000;
+  text-align: left;
+  margin-left: 2rem;
+  color: #fff;
+  font-weight: 600;
+  font-size: 19px;
+  text-decoration: none;
+  background-color: none;
+  width: fit-content;
+}
+
+.dropdown-menu a:hover {
+  background-color: #000720;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.contents-nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+@media (max-width: 768px) {
+  .navbar-wrapper {
+    padding: 2.5rem 3.5rem;
+  }
+  .navigations {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: flex;
+  }
+
+  .navbar-container {
+    justify-content: space-between;
+  }
+
+  .register-button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .dropdown-menu.show {
+    display: block;
+    max-height: 20rem;
+  }
+}
+
+
+#faqs-wrapper {
+  padding-top: 7.5rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* gap: 4rem; */
+}
+
+.faq-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0;
+  border: 1px solid #fff;
+  margin: 1rem;
+  cursor: pointer;
+  width: 60%;
+  border-radius: 7px;
+  /* padding: 1rem; */
+}
+
+.faq-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.faq-box {
+  color: #ffffff;
+  height: 7.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 7px;
+  padding: 2rem;
+}
+
+.faq-answer {
+  display: none;
+  color: #fff;
+  background-color: inherit;
+  border-radius: 7px;
+  padding: 1rem 2rem 2rem 2rem;
+  font-size: 18px;
+  opacity: 0.6;
+  margin-bottom: 2rem;
+}
+
+/* when faq-item is active, change the background of both faq-box and faq-answer */
+.faq-item.active .faq-box,
+.faq-item.active .faq-answer {
+  background-color: #1a1635;
+}
+
+.faq-item.active {
+  background-color: #1a1635;
+}
+
+.faq-box i {
+  font-size: 24px;
+  transition: transform 0.3s ease;
+}
+
+.faq-box i.active {
+  transform: rotate(180deg);
+}
+
+.faq-box span {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.faqs-head {
+  font-size: 65px;
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 768px) {
+  .faq-item {
+    width: 85%;
+  }
+
+  .faq-box {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .faqs-head {
+    font-size: 55px;
+  }
+
+  .faq-box span {
+    font-size: 17px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .faq-answer {
+    font-size: 14px;
+    padding: 20px;
+  }
+  .visit-zairza{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
