@@ -1,7 +1,7 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import CanvaEmbed from "./components/CanvaEmbed";
-import FAQs from "./components/faqs";
+import FAQs from "./components/Faqs";
 import Venue from "./components/Venue";
 import Menu from "./components/Menu";
 import 'boxicons'

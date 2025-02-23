@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import "../App.css";
 
-export default function FAQs() {
+export default function Faqs() {
     useEffect(() => {
         const faqItems = document.querySelectorAll(".faq-item");
       
