@@ -22,7 +22,7 @@ export default function MenuCard({ name, src, bgc }) {
             <div className={`card ${isFlipped ? 'flipped' : ''}`}>
                 <div className="card-face front" style={{backgroundColor: bgc}}>
                     <div>
-                        <img src={`../../public/images/${src[0]}.jpg`} alt="" className="food-img" />
+                        <img src={`/images/${src[0]}.jpg`} alt="" className="food-img" />
                     </div>
                     <div className="nameenroll" data-aos="fade-up">
                         <div className="ename">{name}</div>
@@ -33,7 +33,7 @@ export default function MenuCard({ name, src, bgc }) {
                     <div className="overlay-content">
                         {src.map((img, index) => (
                             <div>
-                                <img src={`../../public/images/${img}.jpg`} alt="" className="back-img"/>
+                                <img src={`/images/${img}.jpg`} alt="" className="back-img"/>
                                 <p style={{ fontSize: '15px', padding: '20px' }}>{foodNames[index]}</p>
                             </div>
                         ))}
