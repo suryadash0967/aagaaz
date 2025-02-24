@@ -1,5 +1,9 @@
 @import url("./assets/fonts.css");
 
+html {
+  scroll-behavior: smooth;
+}
+
 .canva-header {
   position: relative;
   top: 0;
@@ -169,13 +173,15 @@
 }
 
 
+
+/* FAQ Section Styling */
+
 #faqs-wrapper {
   padding-top: 7.5rem;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
-  /* gap: 4rem; */
+  user-select: none;
 }
 
 .faq-item {
@@ -183,12 +189,10 @@
   flex-direction: column;
   justify-content: flex-start;
   gap: 0;
-  border: 1px solid #fff;
   margin: 1rem;
   cursor: pointer;
   width: 60%;
   border-radius: 7px;
-  /* padding: 1rem; */
 }
 
 .faq-container {
@@ -202,14 +206,15 @@
 
 .faq-box {
   color: #ffffff;
-  height: 7.7rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
   transition: background-color 0.3s ease;
   border-radius: 7px;
-  padding: 2rem;
+}
+.faq-box span {
+
 }
 
 .faq-answer {
@@ -218,33 +223,34 @@
   background-color: inherit;
   border-radius: 7px;
   padding: 1rem 2rem 2rem 2rem;
-  font-size: 18px;
   opacity: 0.6;
-  margin-bottom: 2rem;
 }
-
-/* when faq-item is active, change the background of both faq-box and faq-answer */
 .faq-item.active .faq-box,
 .faq-item.active .faq-answer {
-  background-color: #1a1635;
+  background-color: #1a1a1a;
 }
-
+.faq-item.active .faq-box span,
+.faq-item.active .faq-answer,
+.faq-item.active .faq-box box-icon {
+  color: #ffffff;
+}
 .faq-item.active {
-  background-color: #1a1635;
+  background-color: #1a1a1a;
 }
 
-.faq-box i {
+.faq-box box-icon {
   font-size: 24px;
   transition: transform 0.3s ease;
 }
 
-.faq-box i.active {
+.faq-box box-icon.active {
   transform: rotate(180deg);
 }
 
 .faq-box span {
-  font-size: 19px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.8;
 }
 
 .faqs-head {
@@ -257,16 +263,24 @@
 }
 
 .faq-category h3 {
-  font-family: "Tan Nimbus", sans-serif;
+  font-family: "Clash Display", sans-serif;
   padding-left: 1rem;
-  border-left: 4px solid #fff;
+  font-weight: 500;
+  background-color: #000;
+}
+
+.faq-heads {
+  background: rgb(255,164,216);
+  background: linear-gradient(180deg, rgba(255,205,46,1) 0%, rgba(255,164,216,1) 100%);
+  width: fit-content;
+  padding-left: 0.3rem;
 }
 
 .faq-category:last-child {
   margin-bottom: 0;
 }
 
-/* FAQ Section Styling */
+
 .faq-container {
   width: 100%;
   max-width: 1200px;
@@ -276,8 +290,7 @@
 
 .faq-item {
   width: 100%;
-  background: rgba(26, 22, 53, 0.4);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   margin-bottom: 1rem;
   transition: all 0.3s ease;
@@ -289,12 +302,13 @@
 }
 
 .faq-box {
-  padding: 1.5rem 2rem;
+  padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
   color: #fff;
+  background-color: #000;
 }
 
 .faq-box span {
@@ -304,13 +318,13 @@
   padding-right: 2rem;
 }
 
-.faq-box i {
+.faq-box box-icon {
   font-size: 1.5rem;
   transition: transform 0.3s ease;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.faq-box i.active {
+.faq-box box-icon.active {
   transform: rotate(180deg);
   color: #fff;
 }
@@ -319,11 +333,11 @@
   padding: 0 2rem 1.5rem;
   color: rgba(255, 255, 255, 0.8);
   line-height: 1.6;
-  font-size: 1.3rem;
+  font-size: 17px;
 }
 
 .faq-item.active {
-  background: rgba(26, 22, 53, 0.8);
+  background: #1a1a1a;
   border-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -336,8 +350,6 @@
   font-size: 1.5rem;
   color: #fff;
   margin-bottom: 1.5rem;
-  padding-left: 1rem;
-  border-left: 4px solid rgba(255, 255, 255, 0.8);
 }
 
 @media (max-width: 768px) {
@@ -346,8 +358,7 @@
   }
 
   .faq-box {
-    text-align: center;
-    width: 100%;
+    width: 85%;
     padding: 20px;
   }
 
@@ -355,24 +366,10 @@
     font-size: 55px;
   }
 
-  .faq-box span {
-    font-size: 17px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 
   .faq-answer {
     font-size: 14px;
     padding: 20px;
-  }
-
-  .visit-zairza {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   .faq-container {
@@ -384,13 +381,13 @@
   }
 
   .faq-box span {
-    font-size: 1rem;
+    font-size: 16px;
     padding-right: 1rem;
   }
 
   .faq-answer {
     padding: 0 1.5rem 1.2rem;
-    font-size: 0.9rem;
+    font-size: 15px;
   }
 
   .faq-category h3 {
@@ -730,5 +727,4 @@
 
 .dress-wrapper img {
   width: 20px;
-  
 }
