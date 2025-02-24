@@ -8,6 +8,7 @@ import 'boxicons'
 import EventsTimeline from "./components/EventsTimeline";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import Drip from "./components/Drip";
 
 function App() {
 	AOS.init();
@@ -18,6 +19,7 @@ function App() {
 			<Venue/>
 			<EventsTimeline/>
 			<Menu/>
+			<Drip/>
 			<FAQs/>
 		</>
 	);

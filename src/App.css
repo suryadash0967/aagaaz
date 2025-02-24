@@ -597,7 +597,6 @@
 .events-separator {
   width: 3px;
   border-radius: 20px;
-  height: 240vh;
   background-color: #842DB9;
   position: absolute;
   left: 50%;
@@ -642,8 +641,8 @@
 }
 
 .menu-item-img {
-  width: 200px;
-  height: 150px;
+  width: 170px;
+  height: 140px;
   object-fit: cover;
 
 }
@@ -662,7 +661,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
-  gap: 2rem;
+  gap: 3rem;
   width: max-content;
 }
 
@@ -677,7 +676,7 @@
 }
 
 .menu-card-wrapper li {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .menu-card-head{
@@ -686,7 +685,7 @@
   left: -20px;
   margin: 0.7rem 0;
   opacity: 0.8;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .menu-item-img {
@@ -699,4 +698,37 @@
   background: rgb(255,164,216);
   background: linear-gradient(180deg, rgba(255,164,216,1) 0%, rgba(255,205,46,1) 100%);
   border-radius: 5px;
+}
+
+
+.drip-wrapper {
+  padding: 1rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.drip-img{
+  width: 300px;
+  height: 230px;
+  border-radius: 8px;
+  box-shadow: 5px 5px #FFCD2E;
+  object-fit: cover;
+  object-position: top;
+}
+
+.dress-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  
+}
+
+.dress-wrapper img {
+  width: 20px;
+  
 }
