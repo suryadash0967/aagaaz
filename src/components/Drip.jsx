@@ -3,8 +3,8 @@ export default function Drip() {
         <>
             <div className="drip-wrapper">
                 
-                <div style={{display: "flex", gap: "8rem", alignItems: "center"}}>
-                    <div style={{display: "flex", flexDirection: "column", justifyContent: "start", alignItems: "start", gap: "0.5rem"}}>
+                <div className="drip-seg-wrapper" style={{}}>
+                    <div className="drip-seg">
                         <h1 style={{marginBottom: "2rem", fontFamily: "Clash Display", fontWeight: 500}}>The Drip</h1>
                         <div className="drip-desc">
                             <div className="dress-wrapper">

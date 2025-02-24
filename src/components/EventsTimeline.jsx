@@ -8,7 +8,7 @@ export default function EventsTimeline() {
             const lastEvent = document.querySelector(".indiv-event-desc:last-child");
             const image = document.querySelector(".all-events-img");
             if (lastEvent && separatorRef.current) {
-                const separatorHeight = lastEvent.offsetTop - document.querySelector(".indiv-event-desc:first-child").offsetTop + 10;
+                const separatorHeight = lastEvent.offsetTop - document.querySelector(".indiv-event-desc:first-child").offsetTop;
                 separatorRef.current.style.height = `${separatorHeight}px`;
             }
         };
@@ -23,10 +23,10 @@ export default function EventsTimeline() {
 
     return (
         <div className="events-timeline-wrapper-head">
-            <div className="events-separator" ref={separatorRef}></div>
+            <div className="sacred-timeline" ref={separatorRef}></div>
             <div className="events-timeline-wrapper">
                 <div className="indiv-event-desc">
-                    <div>
+                    <div className="all-events-img-wrapper">
                         <img className="all-events-img" src="/images/party-demo.jpg" alt="" />
                     </div>
                     <div className="event-count">1</div>
@@ -35,12 +35,12 @@ export default function EventsTimeline() {
                 <div className="indiv-event-desc">
                     <div className="event-main-desc" data-aos="fade-right">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
                     <div className="event-count">2</div>
-                    <div>
+                    <div className="all-events-img-wrapper">
                         <img className="all-events-img" src="/images/party-demo.jpg" alt="" />
                     </div>
                 </div>
                 <div className="indiv-event-desc">
-                    <div>
+                    <div className="all-events-img-wrapper">
                         <img className="all-events-img" src="/images/party-demo.jpg" alt="" />
                     </div>
                     <div className="event-count">3</div>
@@ -49,12 +49,12 @@ export default function EventsTimeline() {
                 <div className="indiv-event-desc">
                     <div className="event-main-desc" data-aos="fade-right">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
                     <div className="event-count">4</div>
-                    <div>
+                    <div className="all-events-img-wrapper">
                         <img className="all-events-img" src="/images/party-demo.jpg" alt="" />
                     </div>
                 </div>
                 <div className="indiv-event-desc">
-                    <div>
+                    <div className="all-events-img-wrapper">
                         <img className="all-events-img" src="/images/party-demo.jpg" alt="" />
                     </div>
                     <div className="event-count">5</div>
@@ -63,7 +63,7 @@ export default function EventsTimeline() {
                 <div className="indiv-event-desc">
                     <div className="event-main-desc" data-aos="fade-right">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
                     <div className="event-count">6</div>
-                    <div>
+                    <div className="all-events-img-wrapper">
                         <img className="all-events-img" src="/images/party-demo.jpg" alt="" />
                     </div>
                 </div>
