@@ -8,7 +8,7 @@ export default function EventsTimeline() {
             const lastEvent = document.querySelector(".indiv-event-desc:last-child");
             const image = document.querySelector(".all-events-img");
             if (lastEvent && separatorRef.current) {
-                const separatorHeight = lastEvent.offsetTop + lastEvent.clientHeight - document.querySelector(".indiv-event-desc:first-child").offsetTop - image.clientHeight;
+                const separatorHeight = lastEvent.offsetTop - document.querySelector(".indiv-event-desc:first-child").offsetTop + 10;
                 separatorRef.current.style.height = `${separatorHeight}px`;
             }
         };
