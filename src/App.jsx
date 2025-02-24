@@ -15,9 +15,9 @@ function App() {
 		<>
 			<Navbar />
 			<CanvaEmbed />
-			{/* <Menu/> */}
 			<Venue/>
 			<EventsTimeline/>
+			<Menu/>
 			<FAQs/>
 		</>
 	);

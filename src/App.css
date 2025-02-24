@@ -565,7 +565,7 @@
 .venue-wrapper{
   position: relative;
   top: -170px;
-  height: 125vh;
+  height: 115vh;
   background-image: url("/images/world-map2.png");
   background-repeat: no-repeat;
   background-position: top;
@@ -634,9 +634,69 @@
   font-size: 25px;
   border: 1px solid #fff;
   background: transparent;
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(15px);
 }
 
 .event-main-desc {
   width: 29%;
+}
+
+.menu-item-img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+
+}
+
+.menu-wrapper-head {
+  margin: 1rem 3rem;
+  padding: 1rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.menu-wrapper{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 2rem;
+  width: max-content;
+}
+
+.menu-card-wrapper{
+  display: flex;
+  align-items: start;
+  gap: 2.5rem;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  height: fit-content;
+  background-color: #000;
+}
+
+.menu-card-wrapper li {
+  font-size: 15px;
+}
+
+.menu-card-head{
+  font-size: 20px;
+  position: relative;
+  left: -20px;
+  margin: 0.7rem 0;
+  opacity: 0.8;
+  font-weight: 400;
+}
+
+.menu-item-img {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.menu-wrapper-for-border {
+  padding-right: 4px;
+  background: rgb(255,164,216);
+  background: linear-gradient(180deg, rgba(255,164,216,1) 0%, rgba(255,205,46,1) 100%);
+  border-radius: 5px;
 }
