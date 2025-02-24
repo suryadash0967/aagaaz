@@ -31,7 +31,7 @@ export default function Venue() {
       ></iframe>
 
       <div style={{ color: "#fff", display: "flex", flexDirection: "column", gap: "1rem" }}>
-        <div>
+        <div className="venue-name">
           <div className="bilorin-heads">
             <h2 className="venue-head">Bilorin Cafe 'N'&nbsp;</h2>
             <h2 className="venue-head">Restaurant</h2>

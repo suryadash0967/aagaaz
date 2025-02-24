@@ -50,9 +50,8 @@ export default function Faqs() {
       <div className="faq-container">
         {/* Event Basics */}
         <div className="faq-category">
-          <div className="faq-heads">
-            <h3 style={{ color: "#fff", marginBottom: "1rem" }}>Event Basics</h3>
-          </div>
+          
+            <h3 style={{ color: "#fff", marginBottom: "1rem" }}><span className="faq-heads"></span>Event Basics</h3>
 
           <div className="faq-item">
             <div className="faq-box">
@@ -93,9 +92,8 @@ export default function Faqs() {
 
         {/* Entry & Registration */}
         <div className="faq-category">
-          <div className="faq-heads">
-            <h3 style={{ color: "#fff", marginBottom: "1rem" }}>Entry & Registration</h3>
-          </div>
+          
+            <h3 style={{ color: "#fff", marginBottom: "1rem" }}><span className="faq-heads"></span>Entry & Registration</h3>
 
           <div className="faq-item">
             <div className="faq-box">
@@ -127,9 +125,8 @@ export default function Faqs() {
 
         {/* Performances & Activities */}
         <div className="faq-category">
-          <div className="faq-heads">
-            <h3 style={{ color: "#fff", marginBottom: "1rem" }}>Performances & Activities</h3>
-          </div>
+          
+            <h3 style={{ color: "#fff", marginBottom: "1rem" }}><span className="faq-heads"></span>Performances & Activities</h3>
 
           <div className="faq-item">
             <div className="faq-box">
@@ -158,9 +155,8 @@ export default function Faqs() {
 
         {/* Food & Refreshments */}
         <div className="faq-category">
-          <div className="faq-heads">
-            <h3 style={{ color: "#fff", marginBottom: "1rem" }}>Food & Refreshments</h3>
-          </div>
+          
+            <h3 style={{ color: "#fff", marginBottom: "1rem" }}><span className="faq-heads"></span>Food & Refreshments</h3>
 
           <div className="faq-item">
             <div className="faq-box">
