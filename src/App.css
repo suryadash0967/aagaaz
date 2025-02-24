@@ -539,3 +539,102 @@
 }
 
 
+
+
+.venue-head {
+  font-family: "Clash Display", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 35px;
+  text-decoration-color: transparent;
+  background: rgb(255,164,216);
+  background: linear-gradient(90deg, rgba(255,164,216,1) 0%, rgba(255,205,46,1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.venue-desc{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Bricolage Grotesque", sans-serif;
+  opacity: 0.6;
+}
+
+.venue-wrapper{
+  position: relative;
+  top: -170px;
+  height: 125vh;
+  background-image: url("/images/world-map2.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  
+}
+
+.events-timeline-wrapper{
+  margin: 2rem 0;
+}
+
+.events-head {
+  font-family: "Tan Nimbus";
+  margin: auto;
+  text-align: center;
+}
+
+
+.events-timeline-wrapper-head {
+  z-index: 100;
+  height: fit-content;
+  width: 100%;
+}
+
+.events-timeline-wrapper{
+  height: 100%;
+  width: 100%;
+}
+
+.events-separator {
+  width: 3px;
+  border-radius: 20px;
+  height: 240vh;
+  background-color: #842DB9;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  box-shadow: 0 0 4px #842DB9, 0 0 30px #842DB9, 0 0 30px #842DB9;
+}
+
+
+.all-events-img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.indiv-event-desc {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.event-count {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  font-size: 25px;
+  border: 1px solid #fff;
+}
+
+.event-main-desc {
+  width: 29%;
+}

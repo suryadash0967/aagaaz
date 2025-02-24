@@ -1,6 +1,47 @@
 @font-face {
-    font-family: "Tan Nimbus";
-    src: url("./tan-nimbus.otf") format("opentype");
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: "Tan Nimbus";
+  src: url("./tan-nimbus.otf") format("opentype");
+  font-weight: 400; /* Normal */
+  font-style: normal;
+}
+@font-face {
+  font-family: "Clash Display";
+  src: url("./ClashDisplay-Regular.otf") format("opentype");
+  font-weight: 400; /* Normal */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Clash Display";
+  src: url("./ClashDisplay-Light.otf") format("opentype");
+  font-weight: 300; /* Light */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Clash Display";
+  src: url("./ClashDisplay-Medium.otf") format("opentype");
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Clash Display";
+  src: url("./ClashDisplay-Semibold.otf") format("opentype");
+  font-weight: 600; /* SemiBold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Clash Display";
+  src: url("./ClashDisplay-Bold.otf") format("opentype");
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Clash Display";
+  src: url("./ClashDisplay-Extralight.otf") format("opentype");
+  font-weight: 200; /* ExtraLight */
+  font-style: normal;
+}

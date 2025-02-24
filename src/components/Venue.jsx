@@ -1,11 +1,11 @@
 export default function Venue() {
     return (
-        <div
+        <div className="venue-wrapper"
         style={{
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          gap: "2rem",
+          gap: "5rem",
           backgroundColor: "#000",
           margin: "2rem 0"
         }}
@@ -24,11 +24,13 @@ export default function Venue() {
 
         <div style={{ color: "#fff", display: "flex", flexDirection: "column", gap: "1.5rem" }}>
           <div>
-            <h2 style={{ fontFamily: "Tan Nimbus", letterSpacing: "2px" }}>Bilorin Cafe 'N' Restaurant</h2>
-            <p style={{ fontSize: "18px" }}>Ghatikia, Kalinganagar, Bhubaneswar, Odisha, 751003</p>
+            <h2 className="venue-head">Bilorin Cafe 'N'</h2>
+            <h2 className="venue-head">Restaurant</h2>
+            <p className="venue-desc" style={{marginTop: "1rem"}}>Ghatikia, Kalinganagar, Bhubaneswar,</p>
+            <p className="venue-desc">Odisha, 751003</p>
           </div>
           <h3>
-            <strong>Timing:</strong> 10 AM - 5 PM
+            <p style={{fontWeight: 400}}>Timing: 10 AM - 5 PM</p>
           </h3>
         </div>
       </div>
