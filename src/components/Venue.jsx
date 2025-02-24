@@ -2,14 +2,14 @@ import { useState, useEffect } from "react";
 
 export default function Venue() {
   const [dimensions, setDimensions] = useState({
-    width: window.innerWidth > 768 ? 600 : window.innerWidth - 200,
+    width: window.innerWidth > 768 ? 600 : window.innerWidth - 100,
     height: window.innerWidth > 768 ? 450 : 300,
   });
 
   useEffect(() => {
     const handleResize = () => {
       setDimensions({
-        width: window.innerWidth > 768 ? 600 : window.innerWidth - 200,
+        width: window.innerWidth > 768 ? 600 : window.innerWidth - 100,
         height: window.innerWidth > 768 ? 450 : 300,
       });
     };
