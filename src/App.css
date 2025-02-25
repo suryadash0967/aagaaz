@@ -935,7 +935,7 @@ body {
 }
 @media (max-width: 539px) {
   .menu-item-img {
-    width: 170px;
+    width: 150px;
     height: 140px;
   }
 }
@@ -1059,7 +1059,7 @@ body {
     margin-bottom: 1rem;
   }
   .drip-img {
-    width: 300px;
+    width: 340px;
     height: 220px;
   }
   .drip-seg-wrapper {
@@ -1075,7 +1075,7 @@ body {
 }
 @media (max-width: 410px) {
   .drip-img {
-    width: 270px;
+    width: 290px;
     height: 200px;
   }
 }
