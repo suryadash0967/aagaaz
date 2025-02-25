@@ -2,9 +2,16 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  /* width: 98vw; */
+  overflow-x: hidden;
 }
 
 .canva-header {
+  overflow-x: hidden;
   position: relative;
   top: 0;
   left: 0;
@@ -17,9 +24,11 @@ html {
   overflow: hidden;
   border-radius: 8px;
   will-change: transform;
+  z-index: 10;
 }
 
 .canva-header2 {
+  overflow-x: hidden;
   position: relative;
   width: 100%;
   height: 0;
@@ -31,6 +40,7 @@ html {
   overflow: hidden;
   border-radius: 8px;
   will-change: transform;
+  z-index: 10;
 }
 
 .embed-iframe {
@@ -45,28 +55,30 @@ html {
 }
 
 
+
+
+
 .navbar-wrapper {
+  overflow-x: hidden;
+  z-index: 1000;
   align-self: center;
   position: fixed;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
   width: fit-content;
-  padding: 2.5rem 0;
-  z-index: 100;
+  padding: 2.5rem 7.5rem;
 }
 
 .navbar-container {
   backdrop-filter: blur(12px);
-  width: 100%;
+  padding: 0 2.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
-  padding: 0 2.5rem;
-  margin: auto;
 }
 
 .navigations {
@@ -81,15 +93,14 @@ html {
   font-weight: 500;
 }
 
-
-.register-button button {
-  background-color: #ffffff;
-  color: #000000;
-  padding: 0.5rem 1rem;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+.navigations a:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #000720;
+  border-radius: 10px;
 }
+
+
 
 /* Hamburger menu */
 .hamburger-menu {
@@ -140,13 +151,42 @@ html {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 1rem 2rem;
+  justify-content: space-between;
+  padding: 1rem 8rem;
+  margin: 0 2rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1104px) {
   .navbar-wrapper {
+    width: 80%;
+  }
+  .contents-nav {
+    /* padding: 1rem 3.8rem; */
+    width: 90%;
+  }
+  .navbar-container {
+    padding: 0;
+  }
+}
 
+.register-button{
+  display: flex;
+  gap: 1rem;
+}
+
+.register-button button {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+@media (max-width: 898px) {
+  .navbar-wrapper {
+    padding: 2.5rem 3.5rem;
   }
 
   .navigations {
@@ -158,39 +198,49 @@ html {
   }
 
   .navbar-container {
-    justify-content: space-between;
-    width: 0px;
-    background: none;
-    padding: 0;
-    position: fixed;
-    top: 0%;
-    left: -10%;
+    /* justify-content: space-between; */
+    width: 100%;
   }
 
   .register-button {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    
   }
 
   .dropdown-menu.show {
     display: block;
     max-height: 20rem;
-    width: 10rem;
-    background: #ffffff2c;
   }
-  .contents-nav {
-    backdrop-filter: blur(0);
-    background: transparent;
-    background-color: #000;
-    border-radius: 10px;
-    border: 1px solid #fff;
-  }
-  .hamburger-menu {
-    position: fixed;
-    top: 0%;
-    right: -90%;
-  }
+}
+
+.zairza-logo img {
+  height: 30px;
+}
+
+.zairza-logo {
+  cursor: pointer;
+}
+
+.register-button a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.register-button button {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  width: fit-content;
+  height: 2.3rem;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.register-button button:hover {
+  opacity: 0.6;
 }
 
 
@@ -198,6 +248,7 @@ html {
 /* FAQ Section Styling */
 
 #faqs-wrapper {
+  overflow-x: hidden;
   padding-top: 7.5rem;
   display: flex;
   flex-direction: column;
@@ -293,8 +344,8 @@ html {
 }
 
 .faq-heads {
-  background: rgb(255,164,216);
-  background: linear-gradient(180deg, rgba(255,205,46,1) 0%, rgba(255,164,216,1) 100%);
+  background: rgb(255, 164, 216);
+  background: linear-gradient(180deg, rgba(255, 205, 46, 1) 0%, rgba(255, 164, 216, 1) 100%);
   width: fit-content;
   padding-left: 0.3rem;
   height: 1rem;
@@ -568,8 +619,8 @@ html {
   letter-spacing: 1px;
   font-size: 35px;
   text-decoration-color: transparent;
-  background: rgb(255,164,216);
-  background: linear-gradient(90deg, rgba(255,164,216,1) 0%, rgba(255,205,46,1) 100%);
+  background: rgb(255, 164, 216);
+  background: linear-gradient(90deg, rgba(255, 164, 216, 1) 0%, rgba(255, 205, 46, 1) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -578,14 +629,15 @@ html {
 
 
 
-.venue-desc{
+.venue-desc {
   font-size: 18px;
   font-weight: 400;
   font-family: "Bricolage Grotesque", sans-serif;
   opacity: 0.6;
 }
 
-.venue-wrapper{
+.venue-wrapper {
+  overflow-x: hidden;
   position: relative;
   top: -120px;
   height: 115vh;
@@ -605,50 +657,58 @@ html {
 
 
 @media (max-width: 1371px) {
-  .venue-wrapper{
+  .venue-wrapper {
     top: -150px;
   }
 }
 
 @media (max-width: 1159px) {
-  .venue-wrapper{
+  .venue-wrapper {
     top: -120px;
   }
 }
 
 @media (max-width: 1159px) {
-  .venue-wrapper{
+  .venue-wrapper {
     top: -120px;
   }
 }
+
 @media (max-width: 1019px) {
-  .venue-wrapper{
+  .venue-wrapper {
     flex-direction: column-reverse;
     gap: 1.5rem;
   }
+
   .venue-head {
     display: inline-block;
   }
+
   .venue-desc {
     display: inline-block;
   }
 }
+
 @media (max-width: 865px) {
-  .venue-wrapper{
+  .venue-wrapper {
     top: -100px;
     background-image: none;
     height: fit-content;
     padding: 4rem 0;
   }
+
   .venue-name h2 {
     font-size: 25px;
   }
+
   .venue-name p {
     font-size: 18px;
   }
+
   .venue-name {
     text-align: center;
   }
+
   .venue-wrapper h3 {
     text-align: center;
   }
@@ -658,7 +718,8 @@ html {
 
 
 
-.events-timeline-wrapper{
+.events-timeline-wrapper {
+  overflow-x: hidden;
   margin: 2rem 0;
 }
 
@@ -670,12 +731,13 @@ html {
 
 
 .events-timeline-wrapper-head {
+  overflow-x: hidden;
   z-index: 100;
   height: fit-content;
   width: 100%;
 }
 
-.events-timeline-wrapper{
+.events-timeline-wrapper {
   height: 100%;
   width: 100%;
 }
@@ -686,7 +748,7 @@ html {
   background-color: #842DB9;
   position: absolute;
   left: 50%;
-  transform: translate(-50%, 10%);
+  transform: translate(-50%, 12%);
   box-shadow: 0 0 4px #842DB9, 0 0 30px #842DB9, 0 0 30px #842DB9;
 }
 
@@ -702,7 +764,7 @@ html {
   .all-events-img {
     width: 300px;
     height: 150px;
-  }  
+  }
 }
 
 .indiv-event-desc {
@@ -741,20 +803,24 @@ html {
     margin: 5rem 0;
     /* justify-content: start; */
   }
+
   .all-events-img-wrapper,
   .event-main-desc {
     position: relative;
     left: 3rem;
     text-align: center;
   }
+
   .indiv-event-desc:nth-of-type(2n) {
     flex-direction: column-reverse;
-    
+
   }
+
   .sacred-timeline {
     left: 20%;
-    transform: translate(-50%, 7%);
+    transform: translate(-50%, 14%);
   }
+
   .event-count {
     left: 20%;
     transform: translateX(-50%);
@@ -771,22 +837,26 @@ html {
 
 
 @media (max-width: 564px) {
+
   .all-events-img-wrapper,
   .event-main-desc {
     position: relative;
     left: 2rem;
     text-align: center;
   }
+
   .sacred-timeline {
     left: 13%;
-    transform: translate(-50%, 7%);
+    transform: translate(-50%, 15%);
   }
+
   .event-count {
     left: 13%;
     transform: translateX(-50%);
     height: 65px;
     width: 65px;
   }
+
   .all-events-img {
     width: 250px;
   }
@@ -801,7 +871,8 @@ html {
 }
 
 .menu-wrapper-head {
-  margin: 1rem auto;
+  overflow-x: hidden;
+  margin: 7rem auto 1rem auto;
   display: flex;
   align-items: start;
   justify-content: center;
@@ -810,7 +881,7 @@ html {
   width: fit-content;
 }
 
-.menu-wrapper{
+.menu-wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
@@ -824,7 +895,7 @@ html {
   }
 }
 
-.menu-card-wrapper{
+.menu-card-wrapper {
   display: flex;
   align-items: start;
   gap: 2.5rem;
@@ -838,7 +909,7 @@ html {
   font-size: 15px;
 }
 
-.menu-card-head{
+.menu-card-head {
   font-size: 20px;
   position: relative;
   left: -20px;
@@ -854,8 +925,8 @@ html {
 
 .menu-wrapper-for-border {
   padding-right: 4px;
-  background: rgb(255,164,216);
-  background: linear-gradient(180deg, rgba(255,164,216,1) 0%, rgba(255,205,46,1) 100%);
+  background: rgb(255, 164, 216);
+  background: linear-gradient(180deg, rgba(255, 164, 216, 1) 0%, rgba(255, 205, 46, 1) 100%);
   border-radius: 5px;
 }
 
@@ -870,7 +941,7 @@ html {
   margin-top: 7rem;
 }
 
-.drip-img{
+.drip-img {
   width: 400px;
   height: 300px;
   border-radius: 8px;
@@ -880,11 +951,12 @@ html {
 }
 
 .dress-wrapper {
+  overflow-x: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  
+
 }
 
 .dress-wrapper img {
@@ -899,7 +971,7 @@ html {
   gap: 0.5rem;
 }
 
-.drip-seg-wrapper{
+.drip-seg-wrapper {
   display: flex;
   gap: 8rem;
   width: 65%;
@@ -909,7 +981,7 @@ html {
 }
 
 @media (max-width: 749px) {
-  .drip-seg-wrapper{
+  .drip-seg-wrapper {
     flex-direction: column;
     gap: 1.5rem;
   }
@@ -921,57 +993,87 @@ html {
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 h1 {
-    letter-spacing: 2px;
-    text-align: center;
-    text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .countdown-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* height: 40vh; */
-    position: relative;
-    padding: 2.5rem 0;
-    top: -160px;
-    background-color: #000;
-    z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 40vh; */
+  position: relative;
+  padding: 7rem 0 4rem 0;
+  top: -160px;
+  background-color: #000;
+  z-index: 100;
+}
+
+
+@media (max-width: 1454px) {
+  .countdown-container {
+    top: -130px;
+  }
+}
+@media (max-width: 1094px) {
+  .countdown-container {
+    top: -80px;
+  }
+}
+
+.countdown-container h1 {
+  text-decoration-color: transparent;
+  background: rgb(255, 164, 216);
+  background: linear-gradient(90deg, rgba(255, 164, 216, 1) 0%, rgba(255, 205, 46, 1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
 }
 
 .countdown-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .countdown-item {
-    color: #111;
-    font-size: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    line-height: 30px;
-    margin: 10px;
-    padding-top: 10px;
-    position: relative;
-    width: 100px;
-    height: 100px;
+  color: #ffffff;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 30px;
+  margin: 10px;
+  padding-top: 10px;
+  position: relative;
+  width: 100px;
+  height: 100px;
 }
 
 .countdown-item span {
-    color: #333;
-    font-size: 12px;
-    font-weight: 600;
-    text-transform: uppercase;
+  color: #333;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration-color: transparent;
+  background: rgb(255, 164, 216);
+  background: linear-gradient(90deg, rgba(255, 164, 216, 1) 0%, rgba(255, 205, 46, 1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
 }
 
 .countdown-svg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100px;
-    height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
 }

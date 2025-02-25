@@ -19,7 +19,7 @@ export default function Venue() {
   }, []);
 
   return (
-    <div className="venue-wrapper">
+    <div className="venue-wrapper" id="venue">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.4506082492035!2d85.7641668!3d20.2816074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1907e5d1174bef%3A0x6170491d122e08d1!2sBilorin%20Cafe%20&#39;N&#39;%20Restaurant!5e0!3m2!1sen!2sin!4v1740235861232!5m2!1sen!2sin"
         width={dimensions.width}

@@ -1,6 +1,7 @@
 export default function Menu() {
     return (
         <div className="menu-wrapper-head">
+            <div style={{margin: "3.5rem 0"}} id="menu"></div>
             <h1 style={{ zIndex: 10, fontFamily: "Clash Display", fontWeight: 500}}>
                 The Menu
             </h1>

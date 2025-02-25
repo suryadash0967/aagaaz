@@ -37,7 +37,7 @@ export default function EventsTimeline() {
     const computedAnimations = Array(6).fill(null).map((_, index) => index % 2 === 0 ? "fade-left" : "fade-right");
 
     return (
-        <div className="events-timeline-wrapper-head">
+        <div className="events-timeline-wrapper-head" id="events">
             <div className="sacred-timeline" ref={separatorRef}></div>
             <div className="events-timeline-wrapper">
                 {[...Array(6)].map((_, index) => (

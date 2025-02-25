@@ -15,7 +15,7 @@ const CanvaEmbed = () => {
   const getCanva = () => {
     if (screenSize <= 768) {
       return (
-        <div className="canva-header2">
+        <div className="canva-header2" id="home">
           <iframe 
             loading="lazy"
             className="embed-iframe"
@@ -43,9 +43,9 @@ const CanvaEmbed = () => {
 
   
   return (
-    <>
+    <div className="canva-wrapper">
       {getCanva()}
-    </>
+    </div>
   );
 };
 
