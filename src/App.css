@@ -125,14 +125,18 @@ body {
   transition: max-height 0.3s ease-out;
   overflow: hidden;
   max-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
 }
+
 
 .dropdown-menu a {
   display: block;
   margin: 1rem 0;
   color: #000;
   text-align: left;
-  margin-left: 2rem;
   color: #fff;
   font-weight: 600;
   font-size: 19px;
@@ -168,6 +172,14 @@ body {
     padding: 0;
   }
 }
+
+@media (max-width: 386px) {
+  .navbar-wrapper {
+    width: 90%;
+  }
+}
+
+
 
 .register-button{
   display: flex;
@@ -207,7 +219,7 @@ body {
   }
 
   .dropdown-menu.show {
-    display: block;
+    display: flex;
     max-height: 20rem;
   }
 }
