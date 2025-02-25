@@ -587,11 +587,11 @@ html {
 
 .venue-wrapper{
   position: relative;
-  /* top: -170px; */
+  top: -120px;
   height: 115vh;
   background-image: url("/images/world-map2.png");
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -794,26 +794,27 @@ html {
 
 
 .menu-item-img {
-  width: 170px;
-  height: 140px;
+  width: 220px;
+  height: 170px;
   object-fit: cover;
 
 }
 
 .menu-wrapper-head {
-  margin: 1rem 3rem;
+  margin: 1rem auto;
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   flex-direction: column;
   gap: 2rem;
+  width: fit-content;
 }
 
 .menu-wrapper{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
-  gap: 3rem;
+  gap: 4rem;
   width: max-content;
 }
 
@@ -834,7 +835,7 @@ html {
 }
 
 .menu-card-wrapper li {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .menu-card-head{
@@ -866,12 +867,12 @@ html {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  margin-top: 5rem;
+  margin-top: 7rem;
 }
 
 .drip-img{
-  width: 300px;
-  height: 230px;
+  width: 400px;
+  height: 300px;
   border-radius: 8px;
   box-shadow: 5px 5px #FFCD2E;
   object-fit: cover;
@@ -893,7 +894,7 @@ html {
 .drip-seg {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: space-between;
   align-items: start;
   gap: 0.5rem;
 }
@@ -901,7 +902,10 @@ html {
 .drip-seg-wrapper{
   display: flex;
   gap: 8rem;
+  width: 65%;
+  margin: 0 auto;
   align-items: center;
+  justify-content: space-between;
 }
 
 @media (max-width: 749px) {
@@ -915,21 +919,6 @@ html {
 /* COUNTDOWN JSX */
 
 @import url('https://fonts.googleapis.com/css?family=Lato');
-/* 
-* {
-    box-sizing: border-box;
-}
-
-body {
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    min-height: 100vh;
-    font-family: 'Lato', sans-serif;
-    margin: 0;
-} */
 
 h1 {
     letter-spacing: 2px;
@@ -941,6 +930,13 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    /* height: 40vh; */
+    position: relative;
+    padding: 2.5rem 0;
+    top: -160px;
+    background-color: #000;
+    z-index: 100;
 }
 
 .countdown-wrapper {

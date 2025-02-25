@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 import moment from "moment";
 
-const Countdown = ({ timeTillDate, timeFormat }) => {
+const Countdown = () => {
+    const targetDate = moment("2025-03-01 10:00:00", "YYYY-MM-DD HH:mm:ss");
+
     const [time, setTime] = useState({
         days: undefined,
         hours: undefined,
@@ -11,20 +13,24 @@ const Countdown = ({ timeTillDate, timeFormat }) => {
 
     useEffect(() => {
         const interval = setInterval(() => {
-            const then = moment(timeTillDate, timeFormat);
             const now = moment();
-            const countdown = moment.duration(then.diff(now));
+            const countdown = moment.duration(targetDate.diff(now));
 
-            setTime({
-                days: countdown.days(),
-                hours: countdown.hours(),
-                minutes: countdown.minutes(),
-                seconds: countdown.seconds()
-            });
+            if (countdown.asMilliseconds() <= 0) {
+                clearInterval(interval);
+                setTime({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+            } else {
+                setTime({
+                    days: countdown.days(),
+                    hours: countdown.hours(),
+                    minutes: countdown.minutes(),
+                    seconds: countdown.seconds()
+                });
+            }
         }, 1000);
 
         return () => clearInterval(interval);
-    }, [timeTillDate, timeFormat]);
+    }, []);
 
     const { days, hours, minutes, seconds } = time;
     const daysRadius = mapNumber(days, 30, 0, 0, 360);
@@ -34,7 +40,7 @@ const Countdown = ({ timeTillDate, timeFormat }) => {
 
     return (
         <div className="countdown-container">
-            <h1>Countdown</h1>
+            <h1 style={{marginBottom: "2rem"}}>THE COUNTDOWN</h1>
             <div className="countdown-wrapper">
                 {days !== undefined && (
                     <CountdownItem label="Days" value={days} radius={daysRadius} />
@@ -62,7 +68,7 @@ const CountdownItem = ({ label, value, radius }) => (
 
 const SVGCircle = ({ radius }) => (
     <svg className="countdown-svg">
-        <path fill="none" stroke="#333" strokeWidth="4" d={describeArc(50, 50, 48, 0, radius)} />
+        <path fill="none" stroke="#fff" strokeWidth="4" d={describeArc(50, 50, 48, 0, radius)} />
     </svg>
 );
 
