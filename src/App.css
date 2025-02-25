@@ -718,6 +718,15 @@ body {
 
 
 
+
+
+
+
+
+/* EVENTS WRAPPER */
+
+
+
 .events-timeline-wrapper {
   overflow-x: hidden;
   margin: 2rem 0;
@@ -863,6 +872,24 @@ body {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MENU WRAPPER */
+
+
 .menu-item-img {
   width: 220px;
   height: 170px;
@@ -892,6 +919,12 @@ body {
 @media (max-width: 956px) {
   .menu-wrapper {
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 539px) {
+  .menu-item-img {
+    width: 170px;
+    height: 140px;
   }
 }
 
@@ -931,6 +964,21 @@ body {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* DRIP WRAPPER` */
+
+
+
 .drip-wrapper {
   padding: 1rem 4rem;
   display: flex;
@@ -956,7 +1004,6 @@ body {
   align-items: center;
   justify-content: center;
   gap: 1rem;
-
 }
 
 .dress-wrapper img {
@@ -974,7 +1021,6 @@ body {
 .drip-seg-wrapper {
   display: flex;
   gap: 8rem;
-  width: 65%;
   margin: 0 auto;
   align-items: center;
   justify-content: space-between;
@@ -983,12 +1029,52 @@ body {
 @media (max-width: 749px) {
   .drip-seg-wrapper {
     flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
     gap: 1.5rem;
+  }
+}
+@media (max-width: 570px) {
+  .drip-img {
+    width: 350px;
+    height: 250px;
+  }
+}
+@media (max-width: 505px) {
+  .drip-seg {
+    width: 20rem;
+    margin-left: 3.5rem;
+    margin-bottom: 1rem;
+  }
+  .drip-img {
+    width: 300px;
+    height: 220px;
+  }
+  .drip-seg-wrapper {
+    margin: 0;
+    padding: auto;
+  }
+  .drip-seg-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 410px) {
+  .drip-img {
+    width: 270px;
+    height: 200px;
   }
 }
 
 
-/* COUNTDOWN JSX */
+
+
+
+
+
+/* COUNTDOWN WRAPPER */
 
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
