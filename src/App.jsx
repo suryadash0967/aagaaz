@@ -9,6 +9,7 @@ import EventsTimeline from "./components/EventsTimeline";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import Drip from "./components/Drip";
+import Countdown from "./components/Countdown";
 
 function App() {
 	AOS.init();
@@ -16,6 +17,7 @@ function App() {
 		<>
 			<Navbar />
 			<CanvaEmbed />
+			<Countdown/>
 			<Venue/>
 			<EventsTimeline/>
 			<Menu/>
