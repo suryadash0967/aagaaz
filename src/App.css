@@ -638,7 +638,7 @@ body {
   background-color: #842DB9;
   position: absolute;
   left: 50%;
-  transform: translate(-50%, 12%);
+  transform: translate(-50%, 7%);
   box-shadow: 0 0 4px #842DB9, 0 0 30px #842DB9, 0 0 30px #842DB9;
 }
 
@@ -682,7 +682,18 @@ body {
 }
 
 .event-main-desc {
-  width: 29%;
+  width: 25%;
+}
+
+.event-main-desc div:nth-of-type(1) {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.event-main-desc div:nth-of-type(2) {
+  opacity: 0.7;
+  font-size: 16px;
 }
 
 @media (max-width: 973px) {
@@ -698,7 +709,6 @@ body {
   .event-main-desc {
     position: relative;
     left: 3rem;
-    text-align: center;
   }
 
   .indiv-event-desc:nth-of-type(2n) {
@@ -708,7 +718,7 @@ body {
 
   .sacred-timeline {
     left: 20%;
-    transform: translate(-50%, 14%);
+    transform: translate(-50%, 8%);
   }
 
   .event-count {
@@ -732,12 +742,11 @@ body {
   .event-main-desc {
     position: relative;
     left: 2rem;
-    text-align: center;
   }
 
   .sacred-timeline {
     left: 13%;
-    transform: translate(-50%, 15%);
+    transform: translate(-50%, 8%);
   }
 
   .event-count {
