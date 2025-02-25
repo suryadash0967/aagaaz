@@ -52,13 +52,13 @@ export default function EventsTimeline() {
                     <div className="event-count">3</div>
                     <div className="event-main-desc" data-aos="fade-left">
                         <div>Nach De Seniors!</div>
-                        <div>Move, groove and make some noise as your seniors set the dance floor on fire!</div>
+                        <div>Move, groove and make some noise as your seniors set the dance floor on fire!</div>
                     </div>
                 </div>
                 <div className="indiv-event-desc">
                     <div className="event-main-desc" data-aos="fade-right">
                         <div>Jalwa Juniors Ka!</div>
-                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                        <div>Jalwa juniors ka: Junos, it's your time to take the centre stage and shine bright. Make us proud!</div>
                     </div>
                     <div className="event-count">4</div>
                     <div className="all-events-img-wrapper">

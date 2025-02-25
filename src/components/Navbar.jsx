@@ -41,8 +41,12 @@ const Navbar = () => {
   const closeMenu = (event) => {
     const dropdown = document.querySelector(".dropdown-menu");
     const menuButton = document.querySelector(".hamburger-menu");
-    dropdown.classList.remove("show");
+  
+    if (dropdown && !dropdown.contains(event.target) && !menuButton.contains(event.target)) {
+      dropdown.classList.remove("show");
+    }
   };
+  
 
   useEffect(() => {
     document.addEventListener("click", closeMenu);
