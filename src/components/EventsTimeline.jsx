@@ -71,7 +71,7 @@ export default function EventsTimeline() {
                     </div>
                     <div className="event-count">5</div>
                     <div className="event-main-desc" data-aos="fade-left">
-                        <div>Darr Ke Aage Dare Hai !</div>
+                        <div>Darr Ke Aage Dare Hai!</div>
                         <div>Dare devils unleashed: Let loose and go wild with crazy dares!</div>
                     </div>
                 </div>
