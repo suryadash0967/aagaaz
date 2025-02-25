@@ -41,9 +41,7 @@ const Navbar = () => {
   const closeMenu = (event) => {
     const dropdown = document.querySelector(".dropdown-menu");
     const menuButton = document.querySelector(".hamburger-menu");
-    if (dropdown && menuButton && !dropdown.contains(event.target) && !menuButton.contains(event.target)) {
-      dropdown.classList.remove("show");
-    }
+    dropdown.classList.remove("show");
   };
 
   useEffect(() => {
@@ -81,7 +79,7 @@ const Navbar = () => {
         </div>
         <div className="dropdown-menu">
           <div>
-            <a href="#home">Home</a>
+            <a href="#home" onClick={closeMenu}>Home</a>
             <a href="#events" onClick={closeMenu}>Events</a>
             <a href="#venue" onClick={closeMenu}>Venue</a>
           </div>

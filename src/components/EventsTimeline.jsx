@@ -49,7 +49,7 @@ export default function EventsTimeline() {
                                 </div>
                                 <div className="event-count">{index + 1}</div>
                                 <div className="event-main-desc" data-aos={computedAnimations[index]}>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    
                                 </div>
                             </>
                         ) : (
