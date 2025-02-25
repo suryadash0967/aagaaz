@@ -178,14 +178,30 @@ body {
 }
 
 .register-button button {
-  background-color: #ffffff;
-  color: #000000;
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 15px;
   width: 100%;
+  text-decoration: none;
 }
+
+.register-button a {
+  font-size: 15px;
+  text-decoration: none;
+  color: #fff;
+}
+
+[href*="https://docs.google.com/forms/d/e/1FAIpQLSfFDcIVJhUTenacAz5HA6bqhVZ7_rLRwFmgyzchS9nWbryApg/viewform"] > button {
+  background-color: #DBA024;
+  font-family: Montserrat;
+}
+[href*="https://docs.google.com/forms/d/e/1FAIpQLSddFG2P88xhwQXgqtw_jtoOVxE5zWWypvfQgMmdJ1d-squZLA/viewform"] > button {
+  background-color: #8D3BAD;
+  font-family: Montserrat;
+}
+
 
 @media (max-width: 1078px) {
   .navbar-wrapper {
@@ -219,7 +235,7 @@ body {
 
 .register-button button {
   font-family: Poppins;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 500;
   width: fit-content;
   height: 2.3rem;

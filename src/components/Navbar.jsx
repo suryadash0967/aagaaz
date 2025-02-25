@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 
 const Navbar = () => {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-  const [firstYearText, setFirstYearText] = useState("1st Years Form");
-  const [secondYearText, setSecondYearText] = useState("2nd Years Form");
+  const [firstYearText, setFirstYearText] = useState("1ST YEARS FORM");
+  const [secondYearText, setSecondYearText] = useState("2ND YEARS FORM");
 
   // Handle window resize
   useEffect(() => {
@@ -21,11 +21,11 @@ const Navbar = () => {
   // Update button text when screen width changes
   useEffect(() => {
     if (screenWidth < 490) {
-      setFirstYearText("1st Years");
-      setSecondYearText("2nd Years");
+      setFirstYearText("1ST YEARS");
+      setSecondYearText("2ND YEARS");
     } else {
-      setFirstYearText("1st Years Form");
-      setSecondYearText("2nd Years Form");
+      setFirstYearText("1ST YEARS FORM");
+      setSecondYearText("2ND YEARS FORM");
     }
   }, [screenWidth]);
 

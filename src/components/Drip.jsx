@@ -10,13 +10,13 @@ export default function Drip() {
                             <div className="drip-desc">
                                 <div className="dress-wrapper">
                                     <img src="/images/formals.png" alt="" />
-                                    <div>Formal shirt and pant</div>
+                                    <div>Classy Formals/Semi-Formals</div>
                                 </div>
                             </div>
                             <div className="drip-desc">
                                 <div className="dress-wrapper">
                                     <img src="/images/saree.png" alt="" />
-                                    <div>Traditional Saree</div>
+                                    <div>Elegant Traditionals/Ethnic (Except sarees)</div>
                                 </div>
                             </div>
                         </div>

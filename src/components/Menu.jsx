@@ -22,9 +22,11 @@ export default function Menu() {
                     <div className="menu-card-wrapper">
                         <img className="menu-item-img" src="/images/american-corn.jpg" alt="" />
                         <div className="menu-desc">
-                            <h4 className="menu-card-head">Starters</h4>
+                            <h4 className="menu-card-head">Starters & Sides</h4>
                             <ul>
                                 <li>American Corn</li>
+                                <li>Papad</li>
+                                <li>Salad</li>
                             </ul>
                         </div>
                     </div>
@@ -37,8 +39,6 @@ export default function Menu() {
                             <ul>
                                 <li>Veg/Non-Veg Biriyani</li>
                                 <li>Raita</li>
-                                <li>Papad</li>
-                                <li>Salad</li>
                             </ul>
                         </div>
                     </div>
