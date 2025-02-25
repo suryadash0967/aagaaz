@@ -164,10 +164,12 @@ body {
   .navbar-wrapper {
     width: 80%;
   }
+
   .contents-nav {
     /* padding: 1rem 3.8rem; */
     width: 90%;
   }
+
   .navbar-container {
     padding: 0;
   }
@@ -181,7 +183,7 @@ body {
 
 
 
-.register-button{
+.register-button {
   display: flex;
   gap: 1rem;
 }
@@ -214,9 +216,7 @@ body {
     width: 100%;
   }
 
-  .register-button {
-    
-  }
+  .register-button {}
 
   .dropdown-menu.show {
     display: flex;
@@ -933,6 +933,7 @@ body {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
 @media (max-width: 539px) {
   .menu-item-img {
     width: 150px;
@@ -1046,33 +1047,39 @@ body {
     gap: 1.5rem;
   }
 }
+
 @media (max-width: 570px) {
   .drip-img {
     width: 350px;
     height: 250px;
   }
 }
+
 @media (max-width: 505px) {
   .drip-seg {
     width: 20rem;
     margin-left: 3.5rem;
     margin-bottom: 1rem;
   }
+
   .drip-img {
     width: 340px;
     height: 220px;
   }
+
   .drip-seg-wrapper {
     margin: 0;
     padding: auto;
   }
-  .drip-seg-head{
+
+  .drip-seg-head {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 }
+
 @media (max-width: 410px) {
   .drip-img {
     width: 290px;
@@ -1115,6 +1122,7 @@ h1 {
     top: -130px;
   }
 }
+
 @media (max-width: 1094px) {
   .countdown-container {
     top: -80px;
@@ -1174,4 +1182,65 @@ h1 {
   left: 0;
   width: 100px;
   height: 100px;
+}
+
+
+/* FOOTER WRAPPER */
+
+.footer-wrapper {
+  background-color: #FFCD2E;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem 2rem;
+}
+
+.footer-left-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  /* padding: 0 2rem; */
+}
+
+
+.footer-desc {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+}
+
+.footer-right-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  width: 20%;
+  gap: 20px;
+}
+
+
+.footer-right-wrapper a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+  .footer-desc {
+    font-size: 18px;
+  }
+
+  .footer-wrapper {
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+  }
+
+  .footer-right-wrapper {
+    justify-content: start;
+    align-items: flex-start;
+  }
+
+  .footer-right-wrapper a {
+    margin-top: 20px;
+  }
 }

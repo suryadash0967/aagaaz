@@ -35,7 +35,7 @@ export default function Menu() {
                         <div className="menu-desc">
                             <h4 className="menu-card-head">Main Course</h4>
                             <ul>
-                                <li>Chicken Biriyani</li>
+                                <li>Veg/Non-Veg Biriyani</li>
                                 <li>Raita</li>
                                 <li>Papad</li>
                                 <li>Salad</li>
