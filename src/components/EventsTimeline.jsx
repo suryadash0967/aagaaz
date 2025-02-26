@@ -38,7 +38,7 @@ export default function EventsTimeline() {
                 <div className="indiv-event-desc">
                     <div className="event-main-desc" data-aos="fade-right">
                         <div>Comedy Ke Sitare</div>
-                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                        <div>Seniors steal the show with a skit to remember!</div>
                     </div>
                     <div className="event-count">2</div>
                     <div className="all-events-img-wrapper">
@@ -117,8 +117,8 @@ export default function EventsTimeline() {
                 </div>
                 <div className="indiv-event-desc">
                     <div className="event-main-desc" data-aos="fade-right">
-                        <div>Rock n’ Pose</div>
-                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                        <div>Rock n' Pose</div>
+                        <div>everyone comes together for a fun jamming session and to pose for memories that stay forever.</div>
                     </div>
                     <div className="event-count">10</div>
                     <div className="all-events-img-wrapper">

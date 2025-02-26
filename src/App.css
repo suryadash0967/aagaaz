@@ -1136,15 +1136,15 @@ h1 {
 
 .footer-desc {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   color: #000;
 }
 
 .footer-right-wrapper {
   display: flex;
   align-items: center;
-  justify-content: right;
-  width: 20%;
+  justify-content: start;
+  flex-direction: column;
   gap: 20px;
 }
 
@@ -1165,6 +1165,7 @@ h1 {
   }
 
   .footer-right-wrapper {
+    margin-top: 2rem;
     justify-content: start;
     align-items: flex-start;
   }
