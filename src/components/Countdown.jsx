@@ -40,7 +40,7 @@ const Countdown = () => {
 
     return (
         <div className="countdown-container">
-            <h1 style={{marginBottom: "2rem"}}>THE COUNTDOWN</h1>
+            <h1 style={{marginBottom: "2rem"}}>T-MINUS</h1>
             <div className="countdown-wrapper">
                 {days !== undefined && (
                     <CountdownItem label="Days" value={days} radius={daysRadius} />
@@ -68,7 +68,7 @@ const CountdownItem = ({ label, value, radius }) => (
 
 const SVGCircle = ({ radius }) => (
     <svg className="countdown-svg">
-        <path fill="none" stroke="#fff" strokeWidth="4" d={describeArc(50, 50, 48, 0, radius)} />
+        <path fill="none" stroke="#fff" strokeWidth="8" d={describeArc(100, 100, 96, 0, radius)} />
     </svg>
 );
 

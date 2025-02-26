@@ -27,7 +27,7 @@ export default function EventsTimeline() {
             <div className="events-timeline-wrapper">
                 <div className="indiv-event-desc">
                     <div className="all-events-img-wrapper">
-                        <img className="all-events-img" src="/images/demo.jpg" alt="" />
+                        <img className="all-events-img" src="/images/sur-e-safar.jpeg" alt="" />
                     </div>
                     <div className="event-count">1</div>
                     <div className="event-main-desc" data-aos="fade-left">
@@ -38,16 +38,16 @@ export default function EventsTimeline() {
                 <div className="indiv-event-desc">
                     <div className="event-main-desc" data-aos="fade-right">
                         <div>Comedy Ke Sitare</div>
-                        <div>Seniors steal the show with a skit to remember!</div>
+                        <div>Seniors steal the show with a skit to remember!</div>
                     </div>
                     <div className="event-count">2</div>
                     <div className="all-events-img-wrapper">
-                        <img className="all-events-img" src="/images/demo.jpg" alt="" />
+                        <img className="all-events-img" src="/images/skit.jpeg" alt="" />
                     </div>
                 </div>
                 <div className="indiv-event-desc">
                     <div className="all-events-img-wrapper">
-                        <img className="all-events-img" src="/images/demo.jpg" alt="" />
+                        <img className="all-events-img" src="/images/seniors-dance.jpeg" alt="" />
                     </div>
                     <div className="event-count">3</div>
                     <div className="event-main-desc" data-aos="fade-left">
@@ -58,11 +58,11 @@ export default function EventsTimeline() {
                 <div className="indiv-event-desc">
                     <div className="event-main-desc" data-aos="fade-right">
                         <div>Jalwa Juniors Ka!</div>
-                        <div>Jalwa juniors ka: Junos, it's your time to take the centre stage and shine bright. Make us proud!</div>
+                        <div>Junos, it's your time to take the centre stage and shine bright. Make us proud!</div>
                     </div>
                     <div className="event-count">4</div>
                     <div className="all-events-img-wrapper">
-                        <img className="all-events-img" src="/images/demo.jpg" alt="" />
+                        <img className="all-events-img" src="/images/juniors-dance.jpeg" alt="" />
                     </div>
                 </div>
                 <div className="indiv-event-desc">
@@ -78,16 +78,18 @@ export default function EventsTimeline() {
                 <div className="indiv-event-desc">
                     <div className="event-main-desc" data-aos="fade-right">
                         <div>Andaz Apna Apna: Seniors vs Juniors</div>
-                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                        <div>
+                            Act. Guess. Repeat - The ultimate dumb charades face-off!
+                        </div>
                     </div>
                     <div className="event-count">6</div>
                     <div className="all-events-img-wrapper">
-                        <img className="all-events-img" src="/images/demo.jpg" alt="" />
+                        <img className="all-events-img" src="/images/dumb-charades.jpeg" alt="" />
                     </div>
                 </div>
                 <div className="indiv-event-desc">
                     <div className="all-events-img-wrapper">
-                        <img className="all-events-img" src="/images/demo.jpg" alt="" />
+                        <img className="all-events-img" src="/images/latent.png" alt="" />
                     </div>
                     <div className="event-count">7</div>
                     <div className="event-main-desc" data-aos="fade-left">
@@ -98,7 +100,7 @@ export default function EventsTimeline() {
                 <div className="indiv-event-desc">
                     <div className="event-main-desc" data-aos="fade-right">
                         <div>Rose Tinted Rizz</div>
-                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                        <div>Rose, rejection, or romance? The ultimate test of junior charm. May the best pick-up line win!</div>
                     </div>
                     <div className="event-count">8</div>
                     <div className="all-events-img-wrapper">
@@ -107,7 +109,7 @@ export default function EventsTimeline() {
                 </div>
                 <div className="indiv-event-desc">
                     <div className="all-events-img-wrapper">
-                        <img className="all-events-img" src="/images/demo.jpg" alt="" />
+                        <img className="all-events-img" src="/images/surprise.jpeg" alt="" />
                     </div>
                     <div className="event-count">9</div>
                     <div className="event-main-desc" data-aos="fade-left">
@@ -118,11 +120,11 @@ export default function EventsTimeline() {
                 <div className="indiv-event-desc">
                     <div className="event-main-desc" data-aos="fade-right">
                         <div>Rock n' Pose</div>
-                        <div>everyone comes together for a fun jamming session and to pose for memories that stay forever.</div>
+                        <div>Everyone comes together for a fun jamming session and to pose for memories that stay forever.</div>
                     </div>
                     <div className="event-count">10</div>
                     <div className="all-events-img-wrapper">
-                        <img className="all-events-img" src="/images/demo.jpg" alt="" />
+                        <img className="all-events-img" src="/images/photoshoot.jpeg" alt="" />
                     </div>
                 </div>
             </div>
