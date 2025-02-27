@@ -28,7 +28,7 @@ export default function EventsTimeline() {
     return (
         <div className="events-timeline-wrapper-head" id="events">
             <div className="sacred-timeline" ref={separatorRef}></div>
-            <h1 style={{marginBottom: "4rem"}}>What's Poppin'</h1>
+            <h1 style={{marginBottom: "4rem"}}>What's&nbsp;&nbsp;Poppin'</h1>
             <div className="events-timeline-wrapper">
                 <div className="indiv-event-desc">
                     <div className="all-events-img-wrapper">

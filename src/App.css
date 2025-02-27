@@ -37,7 +37,7 @@ body {
   padding-top: 141.4286%;
   padding-bottom: 0;
   box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
-  margin-top: 1.6em;
+  margin-top: 4.5rem;
   margin-bottom: 0.9em;
   overflow: hidden;
   border-radius: 8px;
@@ -525,7 +525,7 @@ h1 {
   background-color: #842DB9;
   position: absolute;
   left: 50%;
-  transform: translate(-50%, 8.5%);
+  transform: translate(-50%, 10%);
   box-shadow:
     0 0 8px #842DB9,
     0 0 20px #842DB9,
@@ -640,7 +640,7 @@ h1 {
 
   .sacred-timeline {
     left: 20%;
-    transform: translate(-50%, 8.5%);
+    transform: translate(-50%, 9%);
   }
 
   .event-count {
@@ -672,7 +672,7 @@ h1 {
 
   .sacred-timeline {
     left: 13%;
-    transform: translate(-50%, 8.5%);
+    transform: translate(-50%, 9.5%);
   }
 
   .event-count {
