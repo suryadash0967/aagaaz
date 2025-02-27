@@ -972,7 +972,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 18rem;
+  gap: 8rem;
 }
 
 @media (max-width: 749px) {
