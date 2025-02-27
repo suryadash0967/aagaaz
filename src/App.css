@@ -642,10 +642,10 @@ body {
   position: absolute;
   left: 50%;
   transform: translate(-50%, 7%);
-  box-shadow: 
-    0 0 8px #842DB9, 
-    0 0 20px #842DB9, 
-    0 0 40px #842DB9, 
+  box-shadow:
+    0 0 8px #842DB9,
+    0 0 20px #842DB9,
+    0 0 40px #842DB9,
     0 0 20px #842DB9,
     0 0 20px #842DB9;
 }
@@ -1164,7 +1164,7 @@ h1 {
 }
 
 .contact-p {
-  font-size: 20px;
+  font-size: 18px;
   /* margin-bottom: 0.5rem; */
   font-weight: 500;
   color: #000;

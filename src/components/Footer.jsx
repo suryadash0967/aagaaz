@@ -8,12 +8,12 @@ export default function Footer() {
             </div>
             <div className="footer-right-wrapper">
                 <div className="footer-contacts">
-                    <p className="contact-p">Contact Us</p>
+                    <p className="contact-p">Contact Us:</p>
                     <div>
-                        <span style={{color: "#000"}}>Mohan Reddy(CR) : +91 7873784400</span>
+                        <span style={{color: "#000"}}>Mohan Reddy (CR) : +91 7873784400</span>
                     </div>
                     <div>
-                        <span style={{color: "#000"}}>Adyasha Das(GR) : +91 7205171323</span>
+                        <span style={{color: "#000"}}>Adyasha Das (GR) : +91 7205171323</span>
                     </div>
                 </div>
             </div>
