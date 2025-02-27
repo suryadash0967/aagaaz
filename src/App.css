@@ -833,7 +833,7 @@ body {
 
 .menu-wrapper-head {
   overflow-x: hidden;
-  margin: 7rem auto 1rem auto;
+  margin: 0 auto;
   display: flex;
   align-items: start;
   justify-content: center;

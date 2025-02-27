@@ -1,8 +1,7 @@
 export default function Drip() {
     return (
         <>
-            <div className="drip-wrapper">
-                <div id="drip" style={{ margin: "3.5rem 0" }}></div>
+            <div className="drip-wrapper" id="drip">
                 <div className="drip-seg-wrapper" style={{}}>
                     <div className="drip-seg-head">
                         <div className="drip-seg">

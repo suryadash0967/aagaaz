@@ -114,7 +114,7 @@ export default function EventsTimeline() {
                     <div className="event-count">9</div>
                     <div className="event-main-desc" data-aos="fade-left">
                         <div>Top Secret!</div>
-                        <div>Unroasted no more: Dish out all your burns and get ready to take the heat.</div>
+                        <div>All Hush Hush for this event. You get to know and see for yourself only after you come!</div>
                     </div>
                 </div>
                 <div className="indiv-event-desc">
