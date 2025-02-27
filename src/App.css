@@ -875,12 +875,14 @@ body {
 
 .menu-card-wrapper li {
   font-size: 15px;
+  position: relative;
+  left: -5px;
 }
 
 .menu-card-head {
   font-size: 20px;
   position: relative;
-  left: -20px;
+  left: -25px;
   margin: 0.7rem 0;
   opacity: 0.8;
   font-weight: 300;
@@ -981,7 +983,7 @@ body {
     height: 250px;
   }
   .drip-desc {
-    /* margin-left: 1rem; */
+    margin-left: 0.8rem;
   }
 }
 
