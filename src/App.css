@@ -662,7 +662,7 @@ body {
 @media (max-width: 1145px) {
   .all-events-img {
     width: 300px;
-    height: 150px;
+    height: 225px;
   }
 }
 @media (max-width: 980px) {
@@ -674,7 +674,7 @@ body {
 @media (max-width: 700px) {
   .all-events-img {
     width: 340px;
-    height: 210px;
+    height: 255px;
   }
 }
 
