@@ -1,7 +1,6 @@
 export default function Menu() {
     return (
-        <div className="menu-wrapper-head" >
-            <div style={{position: "relative", top: "-96px"}} id="menu"></div>
+        <div className="menu-wrapper-head" id="menu" style={{paddingTop: "8rem", position: "relative", top: "-16rem"}}>
             <h1 style={{ zIndex: 10, fontFamily: "Clash Display", fontWeight: 700}}>
                 The Menu
             </h1>

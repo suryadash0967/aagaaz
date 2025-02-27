@@ -292,6 +292,7 @@ h1 {
 }
 
 .countdown-container h1 {
+  font-family: "Clash Display", sans-serif;
   text-decoration-color: transparent;
   background: rgb(255, 164, 216);
   background: linear-gradient(90deg, rgba(255, 164, 216, 1) 0%, rgba(255, 205, 46, 1) 100%);
@@ -401,6 +402,7 @@ h1 {
   background-color: #000;
   margin: 2rem 0;
   padding: 11rem 0;
+  top: -8rem;
 }
 
 
@@ -493,6 +495,23 @@ h1 {
   z-index: 100;
   height: fit-content;
   width: 100%;
+  padding-top: 8rem;
+  position: relative;
+  top: -8rem;
+}
+
+.events-timeline-wrapper-head h1 {
+  font-family: "Clash Display", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 2.5rem;
+  text-decoration-color: transparent;
+  background: rgb(255, 164, 216);
+  background: linear-gradient(90deg, rgba(255, 164, 216, 1) 25%, rgba(255, 205, 46, 1) 75%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
 }
 
 .events-timeline-wrapper {
@@ -818,7 +837,9 @@ h1 {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  padding-top: 7.5rem;
+  padding-top: 8rem;
+  position: relative;
+  top: -12rem;
 }
 
 .drip-img {
@@ -950,7 +971,9 @@ h1 {
 
 #faqs {
   overflow-x: hidden;
-  padding-top: 7.5rem;
+  padding-top: 8rem;
+  position: relative;
+  top: -8rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1029,8 +1052,16 @@ h1 {
 }
 
 .faqs-head {
-  font-size: 65px;
   margin-bottom: 4rem;
+  font-family: "Clash Display", sans-serif;
+  text-decoration-color: transparent;
+  background: rgb(255, 164, 216);
+  background: linear-gradient(90deg, rgba(255, 164, 216, 1) 0%, rgba(255, 205, 46, 1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 2.5rem;
 }
 
 .faq-category {
@@ -1213,7 +1244,7 @@ h1 {
 
 
 .footer-desc {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   color: #000;
 }

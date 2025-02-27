@@ -66,8 +66,8 @@ const Navbar = () => {
           </div>
           <div className="navigations">
             <a href="#home">Home</a>
-            <a href="#events">Events</a>
             <a href="#venue">Venue</a>
+            <a href="#events">Events</a>
             <a href="#menu">Menu</a>
             <a href="#drip">Drip</a>
             <a href="#faqs">FAQs</a>

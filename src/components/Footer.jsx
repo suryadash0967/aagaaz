@@ -7,11 +7,13 @@ export default function Footer() {
                 </div>
             </div>
             <div className="footer-right-wrapper">
-                <div>
+                
+                {/* <div>
                     <a href=""><box-icon type='logo' name='instagram' size='md'></box-icon></a>
                     <a href=""><box-icon name='youtube' type='logo' size='md' ></box-icon></a>
-                    {/* <a href=""><box-icon name='linkedin' type='logo' size='md' ></box-icon></a> */}
-                </div>
+                    <a href=""><box-icon name='linkedin' type='logo' size='md' ></box-icon></a>
+                </div> */}
+
                 <div className="footer-contacts">
                     <b style={{color: "#000"}}>Contact Us:</b>
                     <div>
