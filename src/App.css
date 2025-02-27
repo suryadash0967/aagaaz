@@ -864,7 +864,6 @@ body {
 .menu-card-wrapper {
   display: flex;
   align-items: start;
-  padding: 0 2rem;
   gap: 2.5rem;
   border-radius: 5px;
   border: 1px solid #fff;
@@ -899,7 +898,10 @@ body {
   border-radius: 5px;
 }
 
-
+.menu-desc ul {
+  word-wrap: break-word;
+  padding-left: 1rem;
+}
 
 
 
