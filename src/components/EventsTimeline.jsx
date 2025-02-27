@@ -3,6 +3,10 @@ import { useEffect, useRef } from "react";
 export default function EventsTimeline() {
     const separatorRef = useRef(null);
 
+    const handleRegistration = (link) => {
+        window.open(link, "_blank");
+    }
+
     useEffect(() => {
         const updateSeparatorHeight = () => {
             const lastEvent = document.querySelector(".indiv-event-desc:last-child");
@@ -95,6 +99,12 @@ export default function EventsTimeline() {
                     <div className="event-main-desc" data-aos="fade-left">
                         <div>CsE Got Latent</div>
                         <div>Unroasted no more: Dish out all your burns and get ready to take the heat.</div>
+                        <button 
+                            className="event-registration-btn" 
+                            onClick={() => {
+                                handleRegistration("https://forms.gle/WhkUAaZbpSZe6tTUA");
+                            }}
+                        >Register</button>
                     </div>
                 </div>
                 <div className="indiv-event-desc">

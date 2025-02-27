@@ -70,7 +70,7 @@ const Navbar = () => {
             <a href="#venue">Venue</a>
             <a href="#menu">Menu</a>
             <a href="#drip">Drip</a>
-            <a href="#faqs-wrapper">FAQs</a>
+            <a href="#faqs">FAQs</a>
           </div>
           <div className="register-button">
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfFDcIVJhUTenacAz5HA6bqhVZ7_rLRwFmgyzchS9nWbryApg/viewform">
@@ -90,7 +90,7 @@ const Navbar = () => {
           <div>
             <a href="#venue" onClick={closeMenu}>Venue</a>
             <a href="#menu" onClick={closeMenu}>Menu</a>
-            <a href="#faqs-wrapper" onClick={closeMenu}>FAQs</a>
+            <a href="#faqs" onClick={closeMenu}>FAQs</a>
           </div>
         </div>
       </div>

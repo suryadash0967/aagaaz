@@ -42,7 +42,7 @@ export default function Faqs() {
       }, []);
 
     return (
-      <div id="faqs-wrapper">
+      <div id="faqs">
       <div className="faqs-head" style={{ fontFamily: "Clash Display", color: "#fff", fontWeight: 600 }}>
         FAQs
       </div>

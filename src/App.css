@@ -400,6 +400,7 @@ h1 {
   gap: 5rem;
   background-color: #000;
   margin: 2rem 0;
+  padding: 11rem 0;
 }
 
 
@@ -440,6 +441,7 @@ h1 {
 @media (max-width: 865px) {
   .venue-wrapper {
     background-image: none;
+    padding: 0;
     padding-top: 8rem;
     height: fit-content;
   }
@@ -583,6 +585,17 @@ h1 {
   font-size: 16px;
 }
 
+.event-registration-btn {
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background-color: #8D3BAD;
+  font-size: 16px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
 @media (max-width: 973px) {
   .indiv-event-desc {
     display: flex;
@@ -608,7 +621,7 @@ h1 {
 
   .sacred-timeline {
     left: 20%;
-    transform: translate(-50%, 6%);
+    transform: translate(-50%, 7%);
   }
 
   .event-count {
@@ -935,7 +948,7 @@ h1 {
 
 /* FAQS WRAPPER */
 
-#faqs-wrapper {
+#faqs {
   overflow-x: hidden;
   padding-top: 7.5rem;
   display: flex;
