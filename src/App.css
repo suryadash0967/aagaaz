@@ -787,14 +787,14 @@ body {
 
   .all-events-img {
     width: 280px;
-    height: 180px;
+    height: 210px;
   }
 }
 
 @media (max-width: 483px) {
   .all-events-img {
     width: 280px;
-    height: 140px;
+    height: 210px;
   }
   .event-main-desc {
     width: 55%;
@@ -804,7 +804,7 @@ body {
 @media (max-width: 425px) {
   .all-events-img {
     width: 270px;
-    height: 140px;
+    height: 203px;
   }
   .event-main-desc {
     width: 58%;
