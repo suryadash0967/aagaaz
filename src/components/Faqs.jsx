@@ -67,7 +67,7 @@ export default function Faqs() {
               <box-icon name='chevron-down' color='#fecc2e' ></box-icon>
             </div>
             <div className="faq-answer">
-              📅 1st March, 10 AM - 4 PM
+              📅 1st March, 10 AM - 5 PM
               <br />
               📍 Bilorin Café 'N' Restaurant - Because college corridors are too mainstream.
             </div>
