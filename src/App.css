@@ -840,6 +840,10 @@ body {
   width: fit-content;
 }
 
+.menu-wrapper-head h1 {
+  text-align: start;
+}
+
 .menu-wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -851,6 +855,10 @@ body {
 @media (max-width: 956px) {
   .menu-wrapper {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .menu-wrapper-head h1 {
+    text-align: center;
   }
 }
 
