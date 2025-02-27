@@ -21,7 +21,7 @@ export default function Drip() {
                             </div>
                         </div>
                         <div>
-                            <img className="drip-img" src="/images/drip-img.jpeg" alt="" />
+                            <img className="drip-img" src="/images/drip-img.jpg" alt="" />
                         </div>
                     </div>
                 </div>

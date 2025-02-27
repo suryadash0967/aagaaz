@@ -7,13 +7,8 @@ export default function Footer() {
                 </div>
             </div>
             <div className="footer-right-wrapper">
-                <div>
-                    <a href=""><box-icon type='logo' name='instagram' size='md'></box-icon></a>
-                    <a href=""><box-icon name='youtube' type='logo' size='md' ></box-icon></a>
-                    <a href=""><box-icon name='linkedin' type='logo' size='md' ></box-icon></a>
-                </div>
                 <div className="footer-contacts">
-                    <p style={{color: "#000", fontSize: "20px"}}>Contact Us</p>
+                    <p className="contact-p">Contact Us</p>
                     <div>
                         <span style={{color: "#000"}}>Mohan Reddy(CR) : +91 7873784400</span>
                     </div>
