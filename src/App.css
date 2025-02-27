@@ -840,7 +840,7 @@ body {
   width: fit-content;
 }
 
-.menu-wrapper-head h1 {
+.menu-wrapper-head {
   text-align: center;
 }
 
@@ -857,7 +857,7 @@ body {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .menu-wrapper-head h1 {
+  .menu-wrapper-head {
     text-align: center;
   }
 }
