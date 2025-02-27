@@ -525,7 +525,7 @@ h1 {
   background-color: #842DB9;
   position: absolute;
   left: 50%;
-  transform: translate(-50%, 7%);
+  transform: translate(-50%, 8.5%);
   box-shadow:
     0 0 8px #842DB9,
     0 0 20px #842DB9,
@@ -640,7 +640,7 @@ h1 {
 
   .sacred-timeline {
     left: 20%;
-    transform: translate(-50%, 7%);
+    transform: translate(-50%, 8.5%);
   }
 
   .event-count {
@@ -672,7 +672,7 @@ h1 {
 
   .sacred-timeline {
     left: 13%;
-    transform: translate(-50%, 6%);
+    transform: translate(-50%, 8.5%);
   }
 
   .event-count {
