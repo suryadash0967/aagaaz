@@ -864,6 +864,7 @@ body {
 .menu-card-wrapper {
   display: flex;
   align-items: start;
+  padding: 0 2rem;
   gap: 2.5rem;
   border-radius: 5px;
   border: 1px solid #fff;
@@ -900,6 +901,7 @@ body {
 
 .menu-desc {
   padding-left: 1rem;
+  word-wrap: break-word;
 }
 
 
