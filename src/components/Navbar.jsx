@@ -85,11 +85,11 @@ const Navbar = () => {
           <div>
             <a href="#home" onClick={closeMenu}>Home</a>
             <a href="#events" onClick={closeMenu}>Events</a>
-            <a href="#venue" onClick={closeMenu}>Venue</a>
+            <a href="#drip" onClick={closeMenu}>Drip</a>
           </div>
           <div>
+            <a href="#venue" onClick={closeMenu}>Venue</a>
             <a href="#menu" onClick={closeMenu}>Menu</a>
-            <a href="#drip" onClick={closeMenu}>Drip</a>
             <a href="#faqs-wrapper" onClick={closeMenu}>FAQs</a>
           </div>
         </div>
