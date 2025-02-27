@@ -608,13 +608,15 @@ h1 {
 
   .sacred-timeline {
     left: 20%;
-    transform: translate(-50%, 8%);
+    transform: translate(-50%, 6%);
   }
 
   .event-count {
     left: 20%;
     transform: translateX(-50%);
   }
+  
+
 
   
 
@@ -638,7 +640,7 @@ h1 {
 
   .sacred-timeline {
     left: 13%;
-    transform: translate(-50%, 8%);
+    transform: translate(-50%, 6%);
   }
 
   .event-count {
