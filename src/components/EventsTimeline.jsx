@@ -22,7 +22,7 @@ export default function EventsTimeline() {
     }, []);
 
     return (
-        <div className="events-timeline-wrapper-head">
+        <div className="events-timeline-wrapper-head" id="events">
             <div className="sacred-timeline" ref={separatorRef}></div>
             <div className="events-timeline-wrapper">
                 <div className="indiv-event-desc">

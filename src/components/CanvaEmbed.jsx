@@ -43,7 +43,7 @@ const CanvaEmbed = () => {
 
   
   return (
-    <div className="canva-wrapper">
+    <div className="canva-wrapper" id="home">
       {getCanva()}
     </div>
   );
