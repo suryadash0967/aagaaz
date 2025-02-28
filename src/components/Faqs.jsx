@@ -58,7 +58,7 @@ export default function Faqs() {
               <span>What is AAGAAZ?</span>
               <box-icon name='chevron-down' color='#fecc2e' ></box-icon>
             </div>
-            <div className="faq-answer">It's the official welcome party where freshers go from "Who are these people?" to "Bro, we're in this together!"</div>
+            <div className="faq-answer">It's the official welcome party where freshers go from "Who are these people?" to "Bro, we're in this together!" 🎊😎</div>
           </div>
 
           <div className="faq-item">
@@ -69,7 +69,7 @@ export default function Faqs() {
             <div className="faq-answer">
               📅 1st March, 10 AM - 5 PM
               <br />
-              📍 Bilorin Café 'N' Restaurant - Because college corridors are too mainstream.
+              📍 Bilorin Café 'N' Restaurant - Because college corridors are too mainstream.🌆✨
             </div>
           </div>
 
@@ -78,7 +78,7 @@ export default function Faqs() {
               <span>Who can attend?</span>
               <box-icon name='chevron-down' color='#fecc2e' ></box-icon>
             </div>
-            <div className="faq-answer">Only CSE & CE students. If you're from another branch… err, wrong turn buddy!</div>
+            <div className="faq-answer">Only CSE & CE students. If you're from another branch… err, wrong turn buddy! 🚫😂</div>
           </div>
 
           <div className="faq-item">
@@ -86,11 +86,18 @@ export default function Faqs() {
               <span>What should I wear?</span>
               <box-icon name='chevron-down' color='#fecc2e' ></box-icon>
             </div>
+            <div className="faq-answer">Something that screams “I'm cool” but also “I didn't try too hard.” 😎✨</div>
+          </div>
+          
+          <div className="faq-item">
+            <div className="faq-box">
+              <span>What's the dress code for juniors?</span>
+              <box-icon name='chevron-down' color='#fecc2e' ></box-icon>
+            </div>
             <div className="faq-answer">
-              Boys: Formals / Semi-formals - Basically, look like you're either going for a job interview or a fancy date. No, hoodies don't count. 😎
+              Boys - Formals / Semi-formals 👔 (Yes, that means no hoodies and flip-flops, gentlemen!)
               <br />
-              Girls: Ethnic wear (excluding sarees) - Because we want you to slay, not struggle with pleats all day! 💃✨
-
+              Girls - Ethnic wear (excluding sarees) 💃 (We want you to slay, not struggle with pleats all day!)
             </div>
           </div>
         </div>
@@ -107,7 +114,7 @@ export default function Faqs() {
             </div>
             <div className="faq-answer">
               Yes, ₹250 for juniors—consider it an investment in an epic experience! Since this is the first-ever fresher's party in our department, we're making history (and covering costs). Next
-              year, your juniors can thank you for making this happen! 😎🔥
+              year, your juniors can thank you for making this happen! 😎💰
             </div>
           </div>
 
@@ -116,7 +123,7 @@ export default function Faqs() {
               <span>Do I need to register?</span>
               <box-icon name='chevron-down' color='#fecc2e' ></box-icon>
             </div>
-            <div className="faq-answer">Yes! We need to know how many party animals we're dealing with.</div>
+            <div className="faq-answer">Yes! We need to know how many party animals we're dealing with. 🐯📋</div>
           </div>
 
           <div className="faq-item">
@@ -124,7 +131,7 @@ export default function Faqs() {
               <span>Can I bring a friend from another department?</span>
               <box-icon name='chevron-down' color='#fecc2e' ></box-icon>
             </div>
-            <div className="faq-answer">Unless they're an undercover CSE/CE student, nope.</div>
+            <div className="faq-answer">Unless they're an undercover CSE/CE student, nope. 🕵‍♂🚫</div>
           </div>
         </div>
 
@@ -138,7 +145,7 @@ export default function Faqs() {
               <span>Will there be games and contests?</span>
               <box-icon name='chevron-down' color='#fecc2e' ></box-icon>
             </div>
-            <div className="faq-answer">Yes! And no, "Netflix bingeing" is not one of them.</div>
+            <div className="faq-answer">Yes! And no, "Netflix bingeing" is not one of them. 🎮😂</div>
           </div>
 
           <div className="faq-item">
@@ -146,7 +153,7 @@ export default function Faqs() {
               <span>Can I perform at the event?</span>
               <box-icon name='chevron-down' color='#fecc2e' ></box-icon>
             </div>
-            <div className="faq-answer">Of course! Sing, dance, joke, or even do a dramatic reading of your syllabus—if you can entertain, you're in!</div>
+            <div className="faq-answer">Of course! Sing, dance, joke, or even do a dramatic reading of your syllabus—if you can entertain, you're in! 🎤🔥</div>
           </div>
 
           <div className="faq-item">
@@ -154,7 +161,7 @@ export default function Faqs() {
               <span>How are winners decided?</span>
               <box-icon name='chevron-down' color='#fecc2e' ></box-icon>
             </div>
-            <div className="faq-answer">By a panel of "very serious" judges and the loudest cheers. So, bring your fan club!</div>
+            <div className="faq-answer">By a panel of "very serious" judges and the loudest cheers. So, bring your fan club! 🎭🎖</div>
           </div>
         </div>
 
@@ -168,7 +175,7 @@ export default function Faqs() {
               <span>Will there be food?</span>
               <box-icon name='chevron-down' color='#fecc2e' ></box-icon>
             </div>
-            <div className="faq-answer">Do freshers have assignments? Yes. So, of course!</div>
+            <div className="faq-answer">Do freshers have assignments? Yes. So, of course! 🍽😋</div>
           </div>
 
           <div className="faq-item">
@@ -176,7 +183,15 @@ export default function Faqs() {
               <span>What if I have dietary restrictions?</span>
               <box-icon name='chevron-down' color='#fecc2e' ></box-icon>
             </div>
-            <div className="faq-answer">Let us know in advance. We promise not to serve you mystery meat.</div>
+            <div className="faq-answer">Let us know in advance. We promise not to serve you mystery meat. 🤐🍗</div>
+          </div>
+          
+          <div className="faq-item">
+            <div className="faq-box">
+              <span>Can I bring my own snacks?</span>
+              <box-icon name='chevron-down' color='#fecc2e' ></box-icon>
+            </div>
+            <div className="faq-answer">Sorry, this ain't a potluck. But trust us, you won't go hungry! 🍕🔥</div>
           </div>
         </div>
         
@@ -206,7 +221,7 @@ export default function Faqs() {
               <span>Will there be photos from the event?</span>
               <box-icon name='chevron-down' color='#fecc2e' ></box-icon>
             </div>
-            <div className="faq-answer">Oh, absolutely. You might even become a meme.</div>
+            <div className="faq-answer">Oh, absolutely. You might even become a meme. 📸😂</div>
           </div>
         </div>
       </div>
