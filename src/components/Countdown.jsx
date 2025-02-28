@@ -33,14 +33,16 @@ const Countdown = () => {
     }, []);
 
     const { days, hours, minutes, seconds } = time;
-    const daysRadius = mapNumber(days, 30, 0, 0, 360);
-    const hoursRadius = mapNumber(hours, 24, 0, 0, 360);
-    const minutesRadius = mapNumber(minutes, 60, 0, 0, 360);
-    const secondsRadius = mapNumber(seconds, 60, 0, 0, 360);
+
+    // Adjust the mapping so the circle empties as time progresses
+    const daysRadius = mapNumber(days, 0, 30, 360, 0);
+    const hoursRadius = mapNumber(hours, 0, 24, 360, 0);
+    const minutesRadius = mapNumber(minutes, 0, 60, 360, 0);
+    const secondsRadius = mapNumber(seconds, 0, 60, 360, 0);
 
     return (
         <div className="countdown-container">
-            <h1 style={{marginBottom: "2rem"}}>T-MINUS</h1>
+            <h1 style={{ marginBottom: "2rem" }}>T-MINUS</h1>
             <div className="countdown-wrapper">
                 {days !== undefined && (
                     <CountdownItem label="Days" value={days} radius={daysRadius} />
@@ -72,8 +74,9 @@ const SVGCircle = ({ radius }) => (
     </svg>
 );
 
+// Adjust the map function for countdown to decrease the value
 function mapNumber(number, inMin, inMax, outMin, outMax) {
-    return ((number - inMin) * (outMax - outMin)) / (inMax - inMin) + outMin;
+    return ((inMax - number) * (outMax - outMin)) / (inMax - inMin) + outMin;
 }
 
 // Convert polar coordinates to cartesian
