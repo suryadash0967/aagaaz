@@ -51,7 +51,7 @@ export default function Faqs() {
         {/* Event Basics */}
         <div className="faq-category">
           
-            <h3 style={{ color: "#fff", marginBottom: "1rem" }}><span className="faq-heads"></span>Event Basics</h3>
+            <h3 style={{ color: "#fff", marginBottom: "1rem" }}><span className="faq-heads"></span>🎉 Event Basics</h3>
 
           <div className="faq-item">
             <div className="faq-box">
@@ -86,14 +86,19 @@ export default function Faqs() {
               <span>What should I wear?</span>
               <box-icon name='chevron-down' color='#fecc2e' ></box-icon>
             </div>
-            <div className="faq-answer">Something that screams "I'm cool" but also "I didn't try too hard."</div>
+            <div className="faq-answer">
+              Boys: Formals / Semi-formals - Basically, look like you're either going for a job interview or a fancy date. No, hoodies don't count. 😎
+              <br />
+              Girls: Ethnic wear (excluding sarees) - Because we want you to slay, not struggle with pleats all day! 💃✨
+
+            </div>
           </div>
         </div>
 
         {/* Entry & Registration */}
         <div className="faq-category">
           
-            <h3 style={{ color: "#fff", marginBottom: "1rem" }}><span className="faq-heads"></span>Entry & Registration</h3>
+            <h3 style={{ color: "#fff", marginBottom: "1rem" }}><span className="faq-heads"></span>🎫 Entry & Registration</h3>
 
           <div className="faq-item">
             <div className="faq-box">
@@ -126,7 +131,7 @@ export default function Faqs() {
         {/* Performances & Activities */}
         <div className="faq-category">
           
-            <h3 style={{ color: "#fff", marginBottom: "1rem" }}><span className="faq-heads"></span>Performances & Activities</h3>
+            <h3 style={{ color: "#fff", marginBottom: "1rem" }}><span className="faq-heads"></span>🎭 Performances & Activities</h3>
 
           <div className="faq-item">
             <div className="faq-box">
@@ -156,7 +161,7 @@ export default function Faqs() {
         {/* Food & Refreshments */}
         <div className="faq-category">
           
-            <h3 style={{ color: "#fff", marginBottom: "1rem" }}><span className="faq-heads"></span>Food & Refreshments</h3>
+            <h3 style={{ color: "#fff", marginBottom: "1rem" }}><span className="faq-heads"></span>🍕 Food & Refreshments</h3>
 
           <div className="faq-item">
             <div className="faq-box">
@@ -172,6 +177,36 @@ export default function Faqs() {
               <box-icon name='chevron-down' color='#fecc2e' ></box-icon>
             </div>
             <div className="faq-answer">Let us know in advance. We promise not to serve you mystery meat.</div>
+          </div>
+        </div>
+        
+        {/* Prizes & Fun Stuff */}
+        <div className="faq-category">
+          
+            <h3 style={{ color: "#fff", marginBottom: "1rem" }}><span className="faq-heads"></span>🏆 Prizes & Fun Stuff</h3>
+
+          <div className="faq-item">
+            <div className="faq-box">
+              <span>Will there be prizes?</span>
+              <box-icon name='chevron-down' color='#fecc2e' ></box-icon>
+            </div>
+            <div className="faq-answer">Who knows? Maybe, maybe not. Guess you’ll have to show up and find out! 🎁😉</div>
+          </div>
+
+          <div className="faq-item">
+            <div className="faq-box">
+              <span>Are there any contests?</span>
+              <box-icon name='chevron-down' color='#fecc2e' ></box-icon>
+            </div>
+            <div className="faq-answer">Oh, absolutely! But you'll need to register and let us know in the form. No spoilers—just bring your A-game! 🎭🔥</div>
+          </div>
+          
+          <div className="faq-item">
+            <div className="faq-box">
+              <span>Will there be photos from the event?</span>
+              <box-icon name='chevron-down' color='#fecc2e' ></box-icon>
+            </div>
+            <div className="faq-answer">Oh, absolutely. You might even become a meme.</div>
           </div>
         </div>
       </div>
