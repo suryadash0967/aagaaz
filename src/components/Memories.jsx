@@ -29,7 +29,7 @@ const rotateAnimationHandler = (props, state) => {
 export default function Memories() {
     return (
         <>
-            <div className="carousel-wrapper">
+            <div className="carousel-wrapper" id="memories">
                 <div className="carousel-head">
                     <h1 className="carousel-head" style={{ marginBottom: "2rem", fontFamily: "Clash Display", fontWeight: 700 }}>
                         MEMORIES

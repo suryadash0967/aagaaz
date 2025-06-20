@@ -69,7 +69,8 @@ const Navbar = () => {
             <a href="#venue">Venue</a>
             <a href="#events">Events</a>
             <a href="#menu">Menu</a>
-            <a href="#drip">Drip</a>
+            {/* <a href="#drip">Drip</a> */}
+            <a href="#memories">Memories</a>
             <a href="#faqs">FAQs</a>
           </div>
           <div className="register-button">
@@ -85,7 +86,8 @@ const Navbar = () => {
           <div>
             <a href="#home" onClick={closeMenu}>Home</a>
             <a href="#events" onClick={closeMenu}>Events</a>
-            <a href="#drip" onClick={closeMenu}>Drip</a>
+            {/* <a href="#drip" onClick={closeMenu}>Drip</a> */}
+            <a href="#memories" onClick={closeMenu}>Memories</a>
           </div>
           <div>
             <a href="#venue" onClick={closeMenu}>Venue</a>

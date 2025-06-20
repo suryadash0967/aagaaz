@@ -18,7 +18,7 @@ export default function AAGAAZ() {
 			<Venue/>
 			<EventsTimeline/>
 			<Menu/>
-			<Drip/>
+			{/* <Drip/> */}
 			<Memories/>
 			<FAQs/>
 			<Footer/>
