@@ -27,6 +27,8 @@ const images = [
     "https://res.cloudinary.com/dzkuia4lg/image/upload/v1750408394/_DSC8110_mxhv3d.jpg",
     "https://res.cloudinary.com/dzkuia4lg/image/upload/v1750408393/_DSC8089_f4xf8h.jpg",
     "https://res.cloudinary.com/dzkuia4lg/image/upload/v1750408389/_DSC7994_fifcnk.jpg",
+    "https://res.cloudinary.com/dzkuia4lg/image/upload/v1750414444/WhatsApp_Image_2025-06-20_at_10.38.39_3e3fe4db_hnfqm8.jpg",
+    "https://res.cloudinary.com/dzkuia4lg/image/upload/v1750414444/WhatsApp_Image_2025-06-20_at_10.38.39_f98dad1d_qn78hw.jpg",
 ];
 
 export default images;
