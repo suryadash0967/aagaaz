@@ -100,12 +100,12 @@ export default function EventsTimeline() {
                     <div className="event-main-desc" data-aos="fade-left">
                         <div>CsE Got Latent</div>
                         <div>Unroasted no more: Dish out all your burns and get ready to take the heat.</div>
-                        <button 
+                        {/* <button 
                             className="event-registration-btn" 
                             onClick={() => {
                                 handleRegistration("https://forms.gle/WhkUAaZbpSZe6tTUA");
                             }}
-                        >Register</button>
+                        >Register</button> */}
                     </div>
                 </div>
                 <div className="indiv-event-desc">
