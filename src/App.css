@@ -971,7 +971,7 @@ h1 {
 
 @media (max-width: 600px) {
   .control-dots {
-    z-index: -100 !important;
+    display: none !important;
   }
 }
 
