@@ -2,7 +2,7 @@ export default function Drip() {
     return (
         <>
             <div className="drip-wrapper" id="drip">
-                <div className="drip-seg-wrapper" style={{}}>
+                <div className="drip-seg-wrapper">
                     <div className="drip-seg-head">
                         <div className="drip-seg">
                             <h1 style={{ marginBottom: "2rem", fontFamily: "Clash Display", fontWeight: 700 }}>The Style Standard</h1>

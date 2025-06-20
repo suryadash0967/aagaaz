@@ -967,6 +967,140 @@ h1 {
 
 
 
+/* CAROUSEL */
+
+.carousel-container {
+  max-width: 700px;
+  margin: 40px auto;
+  position: relative;
+  /* height: 600px; */
+  object-fit: cover;
+}
+
+.slide img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 768px) {
+  .carousel-container {
+    max-width: 600px;
+  }
+  .slide img {
+    width: 600px !important;
+    height: 400px;
+  }
+}
+@media (max-width: 545px) {
+  .carousel-container {
+    max-width: 500px;
+  }
+  .slide img {
+    width: 500px !important;
+    height: 370px;
+  }
+}
+@media (max-width: 465px) {
+  .carousel-container {
+    max-width: 450px;
+  }
+  .slide img {
+    width: 450px !important;
+    height: 300px;
+  }
+}
+@media (max-width: 440px) {
+  .carousel-container {
+    max-width: 410px;
+  }
+  .slide img {
+    width: 410px !important;
+    height: 270px;
+  }
+}
+
+.nav_btn {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: none;
+  padding: 8px;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+
+.nav_btn_left {
+  left: 10px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav_btn_right {
+  right: 10px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.indicator {
+  z-index: 100;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 4px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.indicator.active {
+  z-index: 100;
+  background-color: white;
+}
+
+.status-text {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 100;
+  margin: 0;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.carousel-head {
+  margin-bottom: 4rem;
+  font-family: "Clash Display", sans-serif;
+  text-decoration-color: transparent;
+  background: rgb(255, 164, 216);
+  background: linear-gradient(90deg, rgba(255, 164, 216, 1) 0%, rgba(255, 205, 46, 1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+
+
+
+
+
+
+
+
 /* FAQS WRAPPER */
 
 #faqs {

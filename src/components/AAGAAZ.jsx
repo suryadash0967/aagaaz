@@ -7,6 +7,7 @@ import EventsTimeline from "./EventsTimeline";
 import Drip from "./Drip";
 import Countdown from "./Countdown";
 import Footer from "./Footer";
+import Memories from "./Memories";
 
 export default function AAGAAZ() {
     return (
@@ -18,6 +19,7 @@ export default function AAGAAZ() {
 			<EventsTimeline/>
 			<Menu/>
 			<Drip/>
+			<Memories/>
 			<FAQs/>
 			<Footer/>
         </>
