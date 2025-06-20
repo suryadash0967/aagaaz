@@ -1020,6 +1020,15 @@ h1 {
     height: 270px;
   }
 }
+@media (max-width: 391px) {
+  .carousel-container {
+    max-width: 370px;
+  }
+  .slide img {
+    width: 370px !important;
+    height: 220px;
+  }
+}
 
 .nav_btn {
   background-color: rgba(0, 0, 0, 0.3);
