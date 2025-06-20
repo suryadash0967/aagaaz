@@ -1,30 +1,7 @@
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import sprite from "../assets/sprite.svg";
 import images from "../assets/carousel-images/images";
 
-const rotateAnimationHandler = (props, state) => {
-  const transitionTime = props.transitionTime + "ms";
-  const timing = "ease-in-out";
-  const baseStyle = {
-    display: "block",
-    minHeight: "100%",
-    transitionTimingFunction: timing,
-    transitionDuration: transitionTime,
-    position: "absolute",
-    inset: "0",
-    opacity: 0,
-    filter: "blur(5px)",
-  };
-  return {
-    slideStyle: baseStyle,
-    selectedStyle: { ...baseStyle, opacity: 1, position: "relative", zIndex: 2, filter: "blur(0)" },
-    prevStyle: {
-      ...baseStyle,
-      transform: `rotate(${state.previousItem > state.selectedItem ? "-30deg" : "30deg"})`,
-    },
-  };
-};
 export default function Memories() {
     return (
         <>
