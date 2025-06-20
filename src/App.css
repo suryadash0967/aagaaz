@@ -969,6 +969,10 @@ h1 {
 
 /* CAROUSEL */
 
+.control-dots {
+  z-index: -100 !important;
+}
+
 .carousel-container {
   max-width: 700px;
   margin: 40px auto;
@@ -1061,7 +1065,7 @@ h1 {
 }
 
 .indicator {
-  z-index: 100;
+  z-index: -100 !important;
   display: inline-block;
   width: 10px;
   height: 10px;
@@ -1072,7 +1076,7 @@ h1 {
 }
 
 .indicator.active {
-  z-index: 100;
+  z-index: -100;
   background-color: white;
 }
 
