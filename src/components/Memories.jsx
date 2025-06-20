@@ -25,7 +25,6 @@ const rotateAnimationHandler = (props, state) => {
     },
   };
 };
-
 export default function Memories() {
     return (
         <>
@@ -38,7 +37,6 @@ export default function Memories() {
                 <div className="carousel-container">
                     <Carousel
                         useKeyboardArrows
-                        // showIndicators
                         renderArrowNext={(onClick, hasNext) =>
                             hasNext && (
                                 <button className="nav_btn nav_btn_right" onClick={onClick}>
@@ -65,14 +63,10 @@ export default function Memories() {
                             <p className="status-text">Image {current} of {total}</p>
                         )}
                         transitionTime={310}
-                        // animationHandler={rotateAnimationHandler}
                         autoPlay
                         infiniteLoop
                         interval={3000}
-                        // stopOnHover
-                        // showIndicators
                         showThumbs={true}
-                        // useKeyboardArrows
                         swipeable={true}
                     >
                         {images.map((src, idx) => (
