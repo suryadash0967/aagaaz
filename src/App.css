@@ -969,8 +969,10 @@ h1 {
 
 /* CAROUSEL */
 
-.control-dots {
-  z-index: -100 !important;
+@media (max-width: 600px) {
+  .control-dots {
+    z-index: -100 !important;
+  }
 }
 
 .carousel-container {
